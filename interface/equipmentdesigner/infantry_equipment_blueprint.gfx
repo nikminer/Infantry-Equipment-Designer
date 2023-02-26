@@ -1,0 +1,358 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_TC_infantry_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/generic_infantry_blueprint.dds"
+	}
+
+	# Categories
+	 spriteType = {
+	 	name = "GFX_TM_small_arms_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/generic_infantry_blueprint_small_arms.dds"
+	 }
+ 
+	 spriteType = {
+	 	name = "GFX_TM_auxiliary_armament_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/generic_infantry_blueprint_fire_support.dds"
+	 }
+ 
+	 spriteType = {
+	 	name = "GFX_TM_anti_tank_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/generic_infantry_blueprint_anti_tank.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_TM_personal_slot"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/generic_infantry_blueprint_presonal.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_TM_special_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/generic_infantry_blueprint_special.dds"
+	 }
+
+	# Icons
+	 spriteType = {
+	 	name = "GFX_designer_prewar_weapon"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry0.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_regular_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry1.dds"
+	 }
+
+	 spriteType = {
+	 	name = "GFX_designer_improved_weapon"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_advanced_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry3.dds"
+	 }
+    
+	# AST
+	 spriteType = {
+		name = "GFX_designer_AST_infantry_equipment_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/AST_infantry_equipment_2.dds"
+	 }
+	# SAF AST NZL
+	 spriteType = {
+		name = "GFX_designer_SAF_AST_NZL_infantry_equipment_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/SAF_AST_NZL_infantry_equipment_3.dds"
+	 }
+
+	# CAN
+	 spriteType = {
+	    name = "GFX_designer_CAN_infantry_equipment_2"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/CAN_infantry_equipment_2.dds"
+	 }
+
+	# ENG
+	 spriteType = {
+	    name = "GFX_designer_ENG_infantry_equipment_1"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ENG_infantry_equipment_1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_ENG_infantry_equipment_2"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ENG_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_ENG_infantry_equipment_3"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ENG_infantry_equipment_3.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_commonwealth_infantry_equipment_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/commonwealth_infantry_equipment_3.dds"
+	 }
+
+	# CHI
+	 spriteType = {
+	 	name = "GFX_designer_chi_basic_equipment"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/chi_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_chi_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/chi_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_chi_improved_infantry_weapons"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/chi_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_chi_advanced_infantry_weapons"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/chi_advanced_infantry_weapons.dds"
+	 }
+
+	# CZE
+	 spriteType = {
+	 	name = "GFX_designer_cze_basic_equipment"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/cze_basic_equipment.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_cze_infantry_weapons1"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/cze_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_cze_improved_infantry_weapons"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/cze_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_cze_advanced_infantry_weapons"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/cze_advanced_infantry_weapons.dds"
+	 }
+
+	# FRA
+	 spriteType = {
+	 	name = "GFX_designer_fra_basic_equipment"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/fra_basic_equipment.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_fra_infantry_weapons1"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/fra_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_fra_improved_infantry_weapons"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/fra_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_fra_advanced_infantry_weapons"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/fra_advanced_infantry_weapons.dds"
+	 }
+
+	# GER
+	 spriteType = {
+	    name = "GFX_designer_GER_infantry_equipment_1"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/GER_infantry_equipment_1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_GER_infantry_equipment_2"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/GER_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_GER_infantry_equipment_3"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/GER_infantry_equipment_3.dds"
+	 }
+
+	# HUN
+	 spriteType = {
+	 	name = "GFX_designer_hun_basic_equipment"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/hun_basic_equipment.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_hun_infantry_weapons1"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/hun_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_hun_improved_infantry_weapons"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/hun_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_hun_advanced_infantry_weapons"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/hun_advanced_infantry_weapons.dds"
+	 }
+
+	# ITA
+	 spriteType = {
+		name = "GFX_designer_ita_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ita_basic_equipment.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_ita_infantry_weapons1"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ita_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_designer_ita_improved_infantry_weapons"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ita_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_designer_ita_advanced_infantry_weapons"
+	    textureFile = "gfx/interface/equipmentdesigner/infantry/designer/ita_advanced_infantry_weapons.dds"
+	 }
+
+	# JAP
+	 spriteType = {
+		 name = "GFX_designer_JAP_infantry_equipment_2"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/JAP_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_JAP_infantry_equipment_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/JAP_infantry_equipment_3.dds"
+	 }
+
+	# POL
+	 spriteType = {
+		name = "GFX_designer_pol_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/pol_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_pol_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/pol_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_pol_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/pol_advanced_infantry_weapons.dds"
+	 }
+
+	# PRC
+	 spriteType = {
+		name = "GFX_designer_prc_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/prc_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_prc_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/prc_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_prc_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/prc_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_prc_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/prc_advanced_infantry_weapons.dds"
+	 }
+
+	# ROM
+	 spriteType = {
+		name = "GFX_designer_rom_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/rom_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_rom_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/rom_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_rom_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/rom_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_rom_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/rom_advanced_infantry_weapons.dds"
+	 }
+
+	# SOV
+	 spriteType = {
+		name = "GFX_designer_SOV_infantry_equipment_0"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/SOV_infantry_equipment_0.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_SOV_infantry_equipment_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/SOV_infantry_equipment_1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_SOV_infantry_equipment_2"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/SOV_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_SOV_infantry_equipment_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/SOV_infantry_equipment_3.dds"
+	 }
+
+	# USA
+	 spriteType = {
+		name = "GFX_designer_usa_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/usa_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_usa_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/usa_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_usa_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/usa_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_usa_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/usa_advanced_infantry_weapons.dds"
+	 }
+
+	# YUG
+	 spriteType = {
+		name = "GFX_designer_yug_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/yug_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_yug_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/yug_infantry_weapons1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_yug_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/yug_improved_infantry_weapons.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_yug_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/yug_advanced_infantry_weapons.dds"
+	 }
+
+	# BUL
+	 spriteType = {
+		name = "GFX_designer_bul_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/bul_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_bul_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/bul_infantry_equipment_1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_bul_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/bul_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_bul_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/bul_infantry_equipment_3.dds"
+	 }
+
+	# GRE
+	 spriteType = {
+		name = "GFX_designer_gre_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/gre_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_gre_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/gre_infantry_equipment_1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_gre_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/gre_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_gre_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/gre_infantry_equipment_3.dds"
+	 }
+
+	# TUR
+	 spriteType = {
+		name = "GFX_designer_tur_basic_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/tur_basic_equipment.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_tur_infantry_weapons1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/tur_infantry_equipment_1.dds"
+	 }
+	 spriteType = {
+		 name = "GFX_designer_tur_improved_infantry_weapons"
+		 textureFile = "gfx/interface/equipmentdesigner/infantry/designer/tur_infantry_equipment_2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_tur_advanced_infantry_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/tur_infantry_equipment_3.dds"
+	 }
+} 

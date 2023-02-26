@@ -1,0 +1,288 @@
+generic_infantry_equipment = {
+	category = land
+
+	roles = {
+		infantry
+	}
+	
+	priority = {
+		factor = 1000
+	}
+
+	great_war_infantry_default = {
+		priority = {
+			factor = 1
+		}
+
+		enable = {
+			not = {
+				has_tech = infantry_weapons1
+			}
+		}
+
+		target_variant = {
+			match_value = 500
+			type = infantry_equipment_0
+			modules = {
+				anti_tank_slot = prewar_anti_tank
+				small_arms_slot = prewar_weapon
+				auxiliary_armament_slot = {
+					any_of = {
+						prewar_attack_support
+						prewar_defence_support
+					}
+				}
+				personal_protective_slot = minimum_protective
+				special_type_slot_1 = bandaging_package
+				special_type_slot_2 = sapper_shovels
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty
+				special_type_slot_5 = empty
+			}
+			upgrades = {
+				
+			}
+		}
+
+		allowed_modules = {
+			minimum_protective
+			prewar_anti_tank
+			prewar_weapon
+			bandaging_package
+			sapper_shovels
+			prewar_attack_support
+			prewar_defence_support
+		}
+	}
+
+
+	basic_infantry_default = {
+		priority = {
+			factor = 100
+		}
+		enable = {
+			has_tech = infantry_weapons1
+		}
+
+		enable = {
+			not = {
+				has_tech = infantry_weapons2
+			}
+		}
+
+		target_variant = {
+			match_value = 600
+			type = infantry_equipment_0
+			modules = {
+				anti_tank_slot = prewar_anti_tank
+				small_arms_slot = regular_weapon
+				auxiliary_armament_slot = {
+					any_of = {
+						prewar_attack_support
+						prewar_defence_support
+						regular_attack_support
+						regular_defence_support
+					}
+				}
+				personal_protective_slot = minimum_protective
+				special_type_slot_1 = bandaging_package
+				special_type_slot_2 = sapper_shovels
+				special_type_slot_3 = binoculars
+				special_type_slot_4 = empty
+				special_type_slot_5 = empty
+			}
+			upgrades = {
+
+			}
+		}
+
+		allowed_modules = {
+			minimum_protective
+			prewar_anti_tank
+			regular_weapon
+			prewar_weapon
+			bandaging_package
+			sapper_shovels
+			binoculars
+			regular_attack_support
+			regular_defence_support
+			prewar_attack_support
+			prewar_defence_support
+		}
+	}
+
+	basic_infantry_default_at = {
+		priority = {
+			factor = 150
+		}
+		enable = {
+			has_tech = infantry_weapons2
+		}
+		enable = {
+			not = {
+				has_tech = improved_infantry_weapons
+			}
+		}
+		target_variant = {
+			match_value = 650
+			type = infantry_equipment_0
+			modules = {
+				anti_tank_slot = regular_anti_tank
+				small_arms_slot = regular_weapon
+				auxiliary_armament_slot = {
+					any_of = {
+						prewar_attack_support
+						prewar_defence_support
+						regular_attack_support
+						regular_defence_support
+					}
+				}
+				personal_protective_slot = minimum_protective
+				special_type_slot_1 = bandaging_package
+				special_type_slot_2 = sapper_shovels
+				special_type_slot_3 = binoculars
+				special_type_slot_4 = empty
+				special_type_slot_5 = empty
+			}
+			upgrades = {
+
+			}
+		}
+
+		allowed_modules = {
+			minimum_protective
+			regular_anti_tank
+			prewar_anti_tank
+			regular_weapon
+			prewar_weapon
+			bandaging_package
+			sapper_shovels
+			binoculars
+			regular_attack_support
+			regular_defence_support
+			prewar_attack_support
+			prewar_defence_support
+		}
+	}
+
+	improved_infantry_default = {
+		priority = {
+			factor = 200
+		}
+		enable = {
+			has_tech = improved_infantry_weapons
+		}
+		enable = {
+			not = {
+				has_tech = advanced_infantry_weapons
+			}
+		}
+		target_variant = {
+			match_value = 700
+			type = infantry_equipment_0
+			modules = {
+				anti_tank_slot = {
+					any_of = {
+						advanced_anti_tank
+						improved_anti_tank
+						regular_anti_tank
+					}
+				}
+				small_arms_slot = improved_weapon
+				auxiliary_armament_slot = {
+					any_of = {
+						improved_attack_support
+						improved_defence_support
+						regular_attack_support
+						regular_defence_support
+					}
+				}
+				personal_protective_slot = pistol_protective
+				special_type_slot_1 = bandaging_package
+				special_type_slot_2 = sapper_shovels
+				special_type_slot_3 = binoculars
+				special_type_slot_4 = empty
+				special_type_slot_5 = empty
+			}
+			upgrades = {
+
+			}
+		}
+
+		allowed_modules = {
+			improved_weapon
+
+			advanced_anti_tank
+			improved_anti_tank
+			regular_anti_tank
+			
+			bandaging_package
+			sapper_shovels
+			binoculars
+
+			improved_attack_support
+			improved_defence_support
+			regular_attack_support
+			regular_defence_support
+		}
+	}
+
+
+
+	advanced_infantry_default = {
+		priority = {
+			factor = 300
+		}
+
+		enable = {
+			has_tech = advanced_infantry_weapons
+		}
+		target_variant = {
+			match_value = 800
+			type = infantry_equipment_0
+			modules = {
+				anti_tank_slot = {
+					any_of = {
+						advanced_anti_tank
+						improved_anti_tank
+						regular_anti_tank
+					}
+				}
+				small_arms_slot = advanced_weapon
+				auxiliary_armament_slot = {
+					any_of = {
+						advanced_attack_support
+						advanced_defence_support
+						improved_attack_support
+						improved_defence_support
+					}
+				}
+				personal_protective_slot = pistol_protective
+				special_type_slot_1 = bandaging_package
+				special_type_slot_2 = sapper_shovels
+				special_type_slot_3 = binoculars
+				special_type_slot_4 = sniper_support
+				special_type_slot_5 = empty
+			}
+			upgrades = {
+
+			}
+		}
+
+		allowed_modules = {
+			pistol_protective
+			advanced_weapon
+			advanced_anti_tank
+			improved_anti_tank
+			regular_anti_tank
+			bandaging_package
+			sapper_shovels
+			binoculars
+			sniper_support
+			advanced_attack_support
+			advanced_defence_support
+			improved_attack_support
+			improved_defence_support
+		}
+	}
+}

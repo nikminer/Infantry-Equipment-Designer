@@ -1,0 +1,1518 @@
+default = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_prewar_weapon
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_regular_weapon
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_improved_weapon
+			}
+		}
+
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_designer_advanced_weapon
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"infantry_rifle_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"infantry_2_entity"
+			}
+		}
+	}
+
+}
+
+AST = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_AST_infantry_equipment_2
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_commonwealth_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 1
+			icons = {
+				GFX_designer_SAF_AST_NZL_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"AST_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"AST_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"AST_infantry_entity_snow"
+				"commonwealth_gfx_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"AST_infantry_2_entity_snow"
+				"commonwealth_gfx_infantry_2_entity"
+			}
+		}
+	}
+} 
+
+NZL = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_designer_SAF_AST_NZL_infantry_equipment_3
+			}
+		}
+
+		
+		pool = {
+			weight = 4
+			models = {
+				"NZL_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"NZL_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"NZL_infantry_entity_snow"
+				"commonwealth_gfx_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"NZL_infantry_2_entity_snow"
+				"commonwealth_gfx_infantry_2_entity"
+			}
+		}
+	}
+} 
+
+SAF = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_designer_SAF_AST_NZL_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"SAF_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SAF_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"SAF_infantry_entity_snow"
+				"commonwealth_gfx_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"SAF_infantry_2_entity_snow"
+				"commonwealth_gfx_infantry_2_entity"
+			}
+		}
+	}
+} 
+
+CAN = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_CAN_infantry_equipment_2
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_commonwealth_infantry_equipment_3
+			}
+		}
+		
+		pool = {
+			weight = 4
+			models = {
+				"CAN_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"CAN_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"commonwealth_gfx_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"commonwealth_gfx_infantry_2_entity"
+			}
+		}
+	}
+} 
+
+RAJ = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_ENG_infantry_equipment_1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_ENG_infantry_equipment_2
+			}
+		}		
+		
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_commonwealth_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_designer_ENG_infantry_equipment_3
+			}
+		}
+		
+		pool = {
+			weight = 4
+			models = {
+				"RAJ_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"RAJ_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"RAJ_infantry_entity_snow"
+				"commonwealth_gfx_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"RAJ_infantry_2_entity_snow"
+				"commonwealth_gfx_infantry_2_entity"
+			}
+		}
+	}
+} 
+
+CHI = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_chi_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_chi_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_chi_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_chi_advanced_infantry_weapons
+			}
+		}
+		pool = {
+			weight = 4
+			models = {
+				"CHI_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"CHI_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"asian_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"asian_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+CZE = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_cze_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_cze_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_cze_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_cze_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CZE_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 3
+			models = {
+				"CZE_infantry_2_entity"
+			}
+		}
+	}
+}
+
+ENG = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_ENG_infantry_equipment_1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_ENG_infantry_equipment_2
+			}
+		}		
+		
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_commonwealth_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_designer_ENG_infantry_equipment_3
+			}
+		}
+
+		
+		pool = {
+			weight = 3
+			models = {
+				"commonwealth_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 4
+			models = {
+				"commonwealth_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+FRA = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_fra_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_fra_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_fra_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_fra_advanced_infantry_weapons
+			}
+		}
+
+		
+		pool = {
+			weight = 3
+			models = {
+				"FRA_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 4
+			models = {
+				"FRA_infantry_2_entity"
+			}
+		}
+	}
+}
+
+GER = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_GER_infantry_equipment_1
+			}
+		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_GER_infantry_equipment_2
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_GER_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"GER_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"GER_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"GER_neutrality_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"GER_neutrality_infantry_2_entity"
+			}
+		}
+	}
+}
+
+
+HUN = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_hun_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_hun_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_hun_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_hun_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"HUN_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 3
+			models = {
+				"HUN_infantry_2_entity"
+			}
+		}
+	}
+}
+
+ITA = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_ita_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_ita_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_ita_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_ita_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"ITA_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"ITA_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"ITA_infantry_entity_snow"
+				"ITA_infantry_entity_desert"
+				"ITA_infantry_alt_0_entity"
+				"ITA_infantry_alt_1_entity"
+				"ITA_infantry_alt_2_entity"
+				"ITA_infantry_alt_3_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"ITA_infantry_2_entity_snow"
+				"ITA_infantry_2_entity_desert"
+				"ITA_infantry_2_alt_0_entity"
+				"ITA_infantry_2_alt_1_entity"
+				"ITA_infantry_2_alt_2_entity"
+				"ITA_infantry_2_alt_3_entity"
+			}
+		}
+	}
+}
+
+JAP = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_JAP_infantry_equipment_2
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_JAP_infantry_equipment_3
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"JAP_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"JAP_infantry_2_entity"
+			}
+		}
+	}
+}
+
+POL = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_pol_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_pol_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_pol_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"POL_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"POL_infantry_2_entity"
+			}
+		}
+	}
+}
+
+
+PRC = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_prc_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_prc_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_prc_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"PRC_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"PRC_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"asian_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"asian_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+GXC = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"GXC_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"GXC_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"asian_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"asian_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+SHX = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"SHX_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SHX_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"asian_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"asian_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+XSM = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"XSM_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"XSM_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"asian_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"asian_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+YUN = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"YUN_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"YUN_infantry_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"asian_gfx_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"asian_gfx_infantry_2_entity"
+			}
+		}
+	}
+}
+
+ROM = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_rom_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_rom_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_rom_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_rom_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"ROM_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"ROM_infantry_2_entity"
+			}
+		}
+	}
+}
+
+SOV = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_SOV_infantry_equipment_0
+			}
+		}
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_SOV_infantry_equipment_1
+			}
+		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_SOV_infantry_equipment_2
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_SOV_infantry_equipment_3
+			}
+		}
+		
+		pool = {
+			weight = 4
+			models = {
+				"SOV_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SOV_infantry_2_entity"
+			}
+		}
+	}
+}
+
+USA = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_usa_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_usa_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_usa_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_usa_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"USA_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"USA_infantry_2_entity"
+			}
+		}
+	}
+}
+
+YUG = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_yug_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_yug_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_yug_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_yug_advanced_infantry_weapons
+			}
+		}
+
+		
+		pool = {
+			weight = 4
+			models = {
+				"YUG_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 3
+			models = {
+				"YUG_infantry_2_entity"
+			}
+		}
+	}
+}
+
+HOL = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"HOL_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"HOL_infantry_2_entity"
+			}
+		}
+	}
+}
+
+INS = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"INS_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"INS_infantry_2_entity"
+			}
+		}
+	}
+}
+
+MEX = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"MEX_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"MEX_infantry_2_entity"
+			}
+		}
+	}
+}
+
+POR = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"POR_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"POR_infantry_2_entity"
+			}
+		}
+	}
+}
+
+
+SPR = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"SPR_nationalist_spain_infantry_entity"
+				"SPR_carlist_spain_infantry_entity"
+				"SPR_anarchist_spain_infantry_entity"
+				"SPR_republican_spain_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SPR_nationalist_spain_infantry_2_entity"
+				"SPR_carlist_spain_infantry_2_entity"
+				"SPR_anarchist_spain_infantry_2_entity"
+				"SPR_republican_spain_infantry_2_entity"
+			}
+		}
+	}
+}
+
+SPB = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"SPB_kingdom_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SPB_kingdom_infantry_2_entity"
+			}
+		}
+	}
+}
+
+SPA = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"SPA_spanish_empire_infantry_entity"
+				"SPA_directory_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SPA_spanish_empire_infantry_2_entity"
+				"SPA_directory_infantry_2_entity"
+			}
+		}
+	}
+}
+
+ESU = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"ESU_POR_unified_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"ESU_POR_unified_infantry_2_entity"
+			}
+		}
+	}
+}
+
+SPC = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"SPC_regional_defense_council_of_iberia_infantry_entity"
+				"SPC_global_defense_council_infantry_entity"
+				"SPC_poum_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SPC_regional_defense_council_of_iberia_infantry_2_entity"
+				"SPC_global_defense_council_infantry_2_entity"
+				"SPC_poum_infantry_2_entity"
+			}
+		}
+	}
+}
+
+BUL = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_bul_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_bul_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_bul_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_bul_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"BUL_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"BUL_communism_infantry_2_entity"
+				"BUL_democratic_infantry_2_entity"
+				"BUL_fascism_infantry_2_entity"
+				"BUL_neutrality_infantry_2_entity"
+			}
+		}
+	}
+}
+
+GRE = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_gre_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_gre_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_gre_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_gre_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"GRE_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"GRE_communism_infantry_2_entity"
+				"GRE_democratic_infantry_2_entity"
+				"GRE_fascism_infantry_2_entity"
+				"GRE_neutrality_infantry_2_entity"
+			}
+		}
+	}
+}
+
+TUR = {
+	infantry_equipment_0 = {
+
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_tur_basic_equipment
+			}
+		}
+
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_tur_infantry_weapons1
+			}
+		}
+
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_tur_improved_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_tur_advanced_infantry_weapons
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"TUR_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"TUR_communism_infantry_2_entity"
+				"TUR_democratic_infantry_2_entity"
+				"TUR_fascism_infantry_2_entity"
+				"TUR_neutrality_infantry_2_entity"
+			}
+		}
+	}
+}
+
+LIT = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"LIT_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"LIT_infantry_2_entity"
+			}
+		}
+	}
+}
+
+EST = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"EST_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"EST_infantry_2_entity"
+			}
+		}
+	}
+}
+
+LAT = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"LAT_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"LAT_infantry_2_entity"
+			}
+		}
+	}
+}
+
+ETH = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"ETH_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"ETH_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"ETH_infantry_alt_0_entity"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"ETH_infantry_2_alt_0_entity"
+			}
+		}
+	}
+}
+
+SWI = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 4
+			models = {
+				"SWI_infantry_entity"
+			}
+		}
+		
+		pool = {
+			weight = 3
+			models = {
+				"SWI_infantry_2_entity"
+			}
+		}
+
+		pool = {
+			weight = 2
+			models = {
+				"SWI_infantry_entity_snow"
+			}
+		}
+		
+		pool = {
+			weight = 1
+			models = {
+				"SWI_infantry_2_entity_snow"
+			}
+		}
+	}
+}
