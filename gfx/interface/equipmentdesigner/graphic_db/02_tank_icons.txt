@@ -1,0 +1,28 @@
+default = {
+	anti_air_equipment = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_aa_generic
+			}
+		}
+	}
+	
+	anti_tank_equipment = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_at_generic
+			}
+		}
+	}
+
+	artillery_equipment = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_art_generic
+			}
+		}
+	}
+}

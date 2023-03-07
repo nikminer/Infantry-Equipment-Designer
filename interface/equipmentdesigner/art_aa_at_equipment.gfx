@@ -1,0 +1,118 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ITA_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_gw_artillery_medium"
+		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery1_allies.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery1_comintern.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery1_axis.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ITA_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery1_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery1_axis.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_designer_aa_generic"
+		texturefile = "gfx/interface/equipmentdesigner/AA/designer/anti_air_equipment.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_designer_at_generic"
+		texturefile = "gfx/interface/equipmentdesigner/AT/designer/anti_tank_equipment.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_designer_art_generic"
+		texturefile = "gfx/interface/equipmentdesigner/arteliry/designer/artillery_equipment.dds"
+	}	
+
+	# Main weapon types
+	 spriteType = {
+	 	name = "GFX_EMI_artilery_weapon_type"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/artillery_main_weapon_type.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_EMI_aa_weapon_type"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/anti_air_main_weapon_type.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_EMI_at_weapon_type"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/anti_tank_main_weapon_type.dds"
+	 }
+
+	# Carriage
+	 spriteType = {
+	 	name = "GFX_TC_carriage_equipment"
+	 	textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint.dds"
+	 }
+	 spriteType = {
+		name = "GFX_TM_carriage_equipment_main_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_main_weapon.dds"
+	 }
+	# Artilerry
+	 spriteType = {
+	 	name = "GFX_TC_art_equipment"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint.dds"
+	 }
+	 spriteType = {
+	    name = "GFX_TM_art_equipment_main_weapon"
+	    textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_main_weapon.dds"
+	 }
+}

@@ -1,14 +1,47 @@
 equipment_modules = {
 	# Arttilery weapon
+	 gw_art_weapon = {
+	 	category = artilery_weapon_type
+	    
+	 	allow_equipment_type = artillery
+ 
+	    forbid_equipment_type_exact_match = armor
+ 
+	 	add_stats = {
+	 		#Defensive Abilities
+	 		defense = 8
+	 		breakthrough = 4
+ 
+	 		#Offensive Abilities
+	 		soft_attack = 20
+	 		hard_attack = 1
+	 		ap_attack = 3
+ 
+	 		#Misc Abilities
+	 		 build_cost_ic = 2.3
+	 	}
+ 
+	 	xp_cost = 0
+ 
+	 	build_cost_resources = {
+	 	   tungsten = 1
+	 	   steel = 1
+	 	}
+	 }
 	 regular_art_weapon = {
 	 	category = artilery_weapon_type
-
+		parent = gw_art_weapon
  		allow_equipment_type = artillery
+
 		forbid_equipment_type_exact_match = armor
+
+		multiply_stats = {
+			soft_attack = 0.1
+		}
 
 	 	add_stats = {
 	 		#Defensive Abilities
-			 defense = 10
+			 defense = 12
 			 breakthrough = 6
  
 	 		#Offensive Abilities
@@ -19,7 +52,7 @@ equipment_modules = {
 	 		#Misc Abilities
 	 		 build_cost_ic = 3
 	 	}
- 
+
 	 	xp_cost = 0
  
 	 	build_cost_resources = {
@@ -34,6 +67,10 @@ equipment_modules = {
 
 		allow_equipment_type = artillery
 		forbid_equipment_type_exact_match = armor
+
+		multiply_stats = {
+			soft_attack = 0.1
+		}
 
 		add_stats = {
 			#Defensive Abilities
@@ -64,6 +101,10 @@ equipment_modules = {
 		allow_equipment_type = artillery
 		forbid_equipment_type_exact_match = armor
 		
+		multiply_stats = {
+			soft_attack = 0.1
+		}
+
 		add_stats = {
 			#Defensive Abilities
 			 defense = 18
@@ -106,7 +147,7 @@ equipment_modules = {
  
 	 		#Misc Abilities
 	 		 build_cost_ic = 3.5
-			 lend_lease_cost = -1
+			 
 	 	}
  
 	 	xp_cost = 0
@@ -136,7 +177,7 @@ equipment_modules = {
  
 	 	   #Misc Abilities
 	 		build_cost_ic = 4.5
-			lend_lease_cost = -1
+			
 	    }
  
 	    xp_cost = 5
@@ -166,7 +207,7 @@ equipment_modules = {
  
 	 	   #Misc Abilities
 			build_cost_ic = 5.5
-			lend_lease_cost = -1
+			
 	    }
  
 	    xp_cost = 5
@@ -192,8 +233,8 @@ equipment_modules = {
 			 ap_attack = 60
 
 			#Misc Abilities
-			 build_cost_ic = 25
-			 lend_lease_cost = -1
+			 build_cost_ic = 2.5
+			 
 		}
 
 		xp_cost = 0
@@ -221,7 +262,7 @@ equipment_modules = {
  
 	 	   #Misc Abilities
 	 		build_cost_ic = 4.5
-	 	    lend_lease_cost = -1
+	 	    
 	    }
  
 	    xp_cost = 5
@@ -250,7 +291,7 @@ equipment_modules = {
  
 	 	   #Misc Abilities
 	 	   build_cost_ic = 5.5
-	 	   lend_lease_cost = -1
+	 	   
 	    }
  
 	    xp_cost = 5

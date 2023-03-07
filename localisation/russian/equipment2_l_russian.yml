@@ -1,0 +1,12 @@
+﻿l_russian:
+  tank_designer_carriage_equipment: "Лафет"
+  carriage_equipment_0: "Лафет"
+
+  artillery_equipment_0: "Артиллерийское снаряжение"
+  anti_air_equipment_0: "Противовоздушное снаряжение"
+  anti_tank_equipment_0: "Противотанковое снаряжение"
+
+  EQ_MOD_CAT_artilery_weapon_type_TITLE: "Артиллерийское вооружение"
+  EQ_MOD_CAT_aa_weapon_type_TITLE: "Противовоздушное вооружение"
+  EQ_MOD_CAT_at_weapon_type_TITLE: "Противотанковое вооружение"
+

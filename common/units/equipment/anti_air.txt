@@ -1,16 +1,16 @@
 duplicate_archetypes = {
-	artillery_equipment = {
-		picture = GFX_designer_art_generic
+	anti_air_equipment = {
+		picture = GFX_designer_aa_generic
 		archetype = carriage_equipment
-		type = { armor artillery }
+		type = { armor anti_air }
 	}
 }
 
 equipments = {
-	artillery_equipment_1 = {
+	anti_air_equipment_1 = {
 		year = 1934
 
-		archetype = artillery_equipment
+		archetype = anti_air_equipment
 		active = no
 		priority = 05
 		visual_level = 0

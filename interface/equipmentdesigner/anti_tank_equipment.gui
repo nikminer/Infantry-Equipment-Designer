@@ -1,0 +1,45 @@
+guiTypes = {
+	containerWindowType = {
+		name = "equipment_designer_anti_tank_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_infantry_equipment"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+
+			################# MODULE SLOT: Main Armament #################
+			containerWindowType = {
+				name = "main_weapon_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "main_weapon_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "main_weapon_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_small_arms_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+		}
+	}
+}

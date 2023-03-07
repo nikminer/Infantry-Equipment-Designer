@@ -3,7 +3,11 @@ technologies = {
 	gw_artillery = {
 
 		enable_equipments = {
-			artillery_equipment_1
+			carriage_equipment_0
+		}
+
+		enable_equipment_modules = {
+			prewar_art_weapon	
 		}
 
 		path = {
@@ -20,6 +24,7 @@ technologies = {
 			leads_to_tech = interwar_antiair
 			research_cost_coeff = 1
 		}
+		
 		enable_equipment_modules = {
 			ship_anti_air_1
 			tank_small_cannon
@@ -58,16 +63,6 @@ technologies = {
 	}
 
 	interwar_artillery = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
 		light_sp_artillery_brigade = {
 			soft_attack = 0.15
 		}
@@ -88,10 +83,11 @@ technologies = {
 			tank_small_cannon_2
 			tank_close_support_gun
 			secondary_turret_close_support_gun
+			regular_art_weapon
 		}
 
 		path = {
-			leads_to_tech = artillery1
+			leads_to_tech = artillery2
 			research_cost_coeff = 1
 		}
 
@@ -128,19 +124,38 @@ technologies = {
 		}
 	}
 
-	artillery1 = {
+	artillery2 = {
 
-		enable_equipments = {
-			artillery_equipment_2
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		modern_sp_artillery_brigade= {
+			soft_attack = 0.1
 		}
 
-		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_medium_cannon
-		}
+
+
 
 		path = {
-			leads_to_tech = artillery2
+			leads_to_tech = artillery1
 			research_cost_coeff = 1
 		}
 
@@ -177,31 +192,12 @@ technologies = {
 		}
 	}
 
-	artillery2 = {
+	artillery1 = {
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		medium_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		heavy_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		modern_sp_artillery_brigade= {
-			soft_attack = 0.1
+		enable_equipment_modules = {
+			tank_medium_howitzer
+			tank_medium_cannon
+			improved_art_weapon
 		}
 
 		path = {
@@ -312,11 +308,9 @@ technologies = {
 
 	artillery4 = {
 
-		enable_equipments = {
-			artillery_equipment_3
-		}
 		enable_equipment_modules = {
 			tank_medium_cannon_2
+			advanced_art_weapon
 		}
 
 		path = {
@@ -449,9 +443,7 @@ technologies = {
 		enable_equipments = {
 			rocket_artillery_equipment_1
 		}
-#		enable_subunits = {
-#			rocket_artillery_brigade
-#		}
+
 
 		enable_equipment_modules = {
 			tank_rocket_launcher
@@ -608,11 +600,8 @@ technologies = {
 
 	interwar_antiair = {
 
-		enable_equipments = {
-			anti_air_equipment_1
-		}
-
 		enable_equipment_modules = {
+			regular_aa_weapon
 			ship_anti_air_2
 			tank_auto_cannon
 			tank_anti_air_cannon
@@ -728,17 +717,13 @@ technologies = {
 	}
 
 	antiair2 = {
-
-		enable_equipments = {
-			anti_air_equipment_2
-		}
-
 		static_anti_air_damage_factor = 0.1
 
 		enable_equipment_modules = {
 			ship_anti_air_3
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
+			improved_aa_weapon
 		}
 
 		path = {
@@ -885,11 +870,6 @@ technologies = {
 	}
 
 	antiair5 = {
-
-		enable_equipments = {
-			anti_air_equipment_3
-		}
-
 		static_anti_air_damage_factor = 0.1
 
 		enable_equipment_modules = {
@@ -897,6 +877,7 @@ technologies = {
 			tank_heavy_cannon_3
 			tank_anti_air_cannon_3
 			auto_loader
+			advanced_aa_weapon
 		}
 
 		research_cost = 1
@@ -933,10 +914,8 @@ technologies = {
 
 	interwar_antitank = {
 
-		enable_equipments = {
-			anti_tank_equipment_1
-		}
 		enable_equipment_modules = {
+			regular_at_weapon
 			tank_high_velocity_cannon
 			tank_heavy_cannon
 			tank_buster_1
@@ -1114,12 +1093,10 @@ technologies = {
 			ap_attack = 0.1
 		}
 
-		enable_equipments = {
-			anti_tank_equipment_2
-		}
 		enable_equipment_modules = {
 			tank_heavy_cannon_2
 			tank_buster_2
+			improved_at_weapon
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1317,10 +1294,7 @@ technologies = {
 			ap_attack = 0.05
 		}
 
-		path = {
-			leads_to_tech = antitank5
-			research_cost_coeff = 1
-		}
+
 
 		research_cost = 1
 
@@ -1373,13 +1347,11 @@ technologies = {
 
 	antitank5 = {
 
-		enable_equipments = {
-			anti_tank_equipment_3
-		}
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_3
 			tank_heavy_cannon_3
 			auto_loader
+			advanced_at_weapon
 		}
 		research_cost = 1
 

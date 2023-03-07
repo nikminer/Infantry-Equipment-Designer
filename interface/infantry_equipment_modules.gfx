@@ -33,16 +33,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/saper_protective.dds"
 	}
  # Fire Support Defense
-	spriteType = {
-		name = "GFX_EMI_infantry_fire_support_attack_type"
-		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_fire_support_attack_type.dds"
-	}
 
 	spriteType = {
 		name = "GFX_EMI_infantry_fire_support_defence_type"
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_fire_support_defence_type.dds"
 	}
-
 	spriteType = {
 		name = "GFX_EMI_prewar_defence_support"
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_defence_support.dds"
@@ -63,7 +58,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/advanced_defence_support.dds"
 	}
 
- # Fire Support Defense
+ # Fire Support Attack
+	spriteType = {
+		name = "GFX_EMI_infantry_fire_support_attack_type"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_fire_support_attack_type.dds"
+	}
 	spriteType = {
 		name = "GFX_EMI_prewar_attack_support"
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_attack_support.dds"
