@@ -11,7 +11,10 @@
   EQ_MOD_CAT_infantry_fire_support_defence_type_TITLE: "Defensive armament"
 
   EQ_MOD_SLOT_anti_tank_slot_TITLE: "Anti-tank armament"
+  EQ_MOD_CAT_infantry_special_modules_TITLE: "Special Modules"
   EQ_MOD_CAT_infantry_anti_tank_type_TITLE: "Anti-tank armament"
+  EQ_MOD_SLOT_personal_protective_slot_TITLE: "Individual protection means"
+  EQ_MOD_CAT_infantry_personal_protective_TITLE: "Individual protection means"
 
  # Technology
   infantry_weapons1: "Infantry Equipment I"
@@ -45,9 +48,6 @@
   advanced_anti_tank: "Anti-tank rocket launchers"
   advanced_anti_tank_short: "Rocket launchers"
   advanced_anti_tank_desc: "Anti-tank rocket launchers are designed to more effectively destroy enemy equipment from a long distance using a rocket projectile."
-
-  EQ_MOD_SLOT_personal_protective_slot_TITLE: "Individual protection means"
-  EQ_MOD_CAT_infantry_personal_protective_TITLE: "Individual protection means"
 
  # Presonal Protective
   minimum_protective: "Minimum individual protection"

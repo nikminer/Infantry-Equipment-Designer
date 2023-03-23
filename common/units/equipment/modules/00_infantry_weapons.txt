@@ -91,7 +91,7 @@ equipment_modules = {
 			xp_cost = 2
 
 			build_cost_resources = {
-				steel = 3
+				steel = 2
 			}
 		}
 		
@@ -273,6 +273,10 @@ equipment_modules = {
 		}
 
 		xp_cost = 5
+
+		build_cost_resources = {
+			steel = 1
+		}
 	 }
 
 	 advanced_anti_tank = {
@@ -289,6 +293,10 @@ equipment_modules = {
 		}
 
 		xp_cost = 5
+
+		build_cost_resources = {
+			steel = 1
+		}
 	 }
 	# Presonal Protective
 	 minimum_protective = {
@@ -345,7 +353,7 @@ equipment_modules = {
 		category = infantry_special_modules
 
 		add_stats = {
-			 casualty_trickleback = 0.005
+			 casualty_trickleback = 0.003
 			 experience_loss_factor = -0.01
 			 default_morale = 0.01
 
@@ -380,8 +388,8 @@ equipment_modules = {
 
 		multiply_stats = {
 			#Offensive Abilities
-			 hard_attack = 0.1
-			 breakthrough = 0.05
+			 hard_attack = 0.2
+			 breakthrough = 0.1
 			 maximum_speed = -0.05
 		}
 
@@ -399,7 +407,7 @@ equipment_modules = {
 		multiply_stats = {
 			#Offensive Abilities
 			 soft_attack = 0.1
-			 entrenchment = 0.05
+			 entrenchment = 0.1
 			 maximum_speed = -0.05
 		}
 
@@ -416,7 +424,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			#Offensive Abilities
-			 soft_attack = 0.2
+			 soft_attack = 0.1
 			 entrenchment = 0.1
 		}
 
@@ -433,7 +441,7 @@ equipment_modules = {
 
 		add_stats = {
 			#Defensive Abilities
-			 soft_attack = 0.2
+			 soft_attack = 0.1
 			 recon = 0.2
 			#Misc Abilities
 			 build_cost_ic = 0.05
@@ -465,7 +473,7 @@ equipment_modules = {
 		category = infantry_special_modules
 
 		multiply_stats = {
-			soft_attack = 0.1
+			soft_attack = 0.05
 			reliability = 0.1
 		}
 
@@ -484,7 +492,7 @@ equipment_modules = {
 			#Offensive Abilities
 			 hard_attack = 0.1
 			 breakthrough = 0.1
-			 soft_attack = 0.1
+			 soft_attack = 0.05
 		}
 
 		add_stats = {
@@ -503,7 +511,7 @@ equipment_modules = {
 			#Offensive Abilities
 			 hard_attack = 0.1
 			 breakthrough = 0.3
-			 soft_attack = 0.3
+			 soft_attack = 0.15
 		}
 
 		add_stats = {

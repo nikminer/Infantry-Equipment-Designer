@@ -81,21 +81,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/arteliry/designer/artillery_equipment.dds"
 	}	
 
-	# Main weapon types
-	 spriteType = {
-	 	name = "GFX_EMI_artilery_weapon_type"
-	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/artillery_main_weapon_type.dds"
-	 }
-
-	 spriteType = {
-		name = "GFX_EMI_aa_weapon_type"
-		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/anti_air_main_weapon_type.dds"
-	 }
-
-	 spriteType = {
-		name = "GFX_EMI_at_weapon_type"
-		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/anti_tank_main_weapon_type.dds"
-	 }
 
 	# Carriage
 	 spriteType = {
@@ -106,6 +91,11 @@ spriteTypes = {
 		name = "GFX_TM_carriage_equipment_main_weapon"
 		textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_main_weapon.dds"
 	 }
+	 spriteType = {
+		name = "GFX_TM_carriage_equipment_carriage"
+		textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_carriage.dds"
+	 }
+	 
 	# Artilerry
 	 spriteType = {
 	 	name = "GFX_TC_art_equipment"

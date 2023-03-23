@@ -23,7 +23,12 @@ equipments = {
 
 		module_count_limit = {
 			module = additional_grenades
-			count < 3
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = additional_ammo
+			count < 2
 		}	
 
 		module_count_limit = {
@@ -48,7 +53,11 @@ equipments = {
 
 		module_count_limit = {
 			module = molotov_cocktail
-			count < 3
+			count < 2
+		}	
+		module_count_limit = {
+			module = flame_support
+			count < 2
 		}	
 
 		module_slots = {
@@ -120,10 +129,9 @@ equipments = {
 		active = yes
 		priority = 2000
 		
-		#Space taken in convoy
-		lend_lease_cost = 1
-
-		maximum_speed = 5
+		#Misc Abilities
+		 lend_lease_cost = 1
+		 maximum_speed = 5
 	}
 
 	infantry_equipment_0 = {

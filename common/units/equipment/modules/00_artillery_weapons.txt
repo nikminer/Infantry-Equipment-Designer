@@ -1,5 +1,5 @@
 equipment_modules = {
-	# Arttilery weapon
+	# Artillery weapon
 	 gw_art_weapon = {
 	 	category = artilery_weapon_type
 	    
@@ -127,179 +127,143 @@ equipment_modules = {
 		}
 	 }
 
-	# Anti-Air weapon
-	 regular_aa_weapon = {
-	 	category = aa_weapon_type
+	# Rocket Artillery
+	 basic_rocket_weapon = {
+	 	category = artilery_rocket_weapon_type
+	    
+	 	allow_equipment_type = rocket
  
-		allow_equipment_type = anti_air
-		forbid_equipment_type_exact_match = armor
-
+	    forbid_equipment_type_exact_match = armor
+ 
 	 	add_stats = {
 	 		#Defensive Abilities
-			 defense = 4
-			 breakthrough = 1
+	 		defense = 12
+			breakthrough = 9
  
 	 		#Offensive Abilities
-			 soft_attack = 3
-			 hard_attack = 7
-			 ap_attack = 25
-			 air_attack = 19
+			 soft_attack = 30
+			 hard_attack = 1
+			 ap_attack = 2
  
 	 		#Misc Abilities
 	 		 build_cost_ic = 3.5
-			 
 	 	}
  
 	 	xp_cost = 0
  
 	 	build_cost_resources = {
-	 	   steel = 1
+	 	   tungsten = 2
 	 	}
 	 }
- 
-	 improved_aa_weapon = {
-	    category = aa_weapon_type
-	    parent = regular_aa_weapon
 
-		allow_equipment_type = anti_air
-		forbid_equipment_type_exact_match = armor
+	 improved_rocket_weapon = {
+		category = artilery_rocket_weapon_type
+		parent = basic_rocket_weapon
+		allow_equipment_type = rocket
 
-	    add_stats = {
-	 	   #Defensive Abilities
-			defense = 4
-			breakthrough = 1
- 
-	 	   #Offensive Abilities
-			soft_attack = 3.5
-			hard_attack = 11
-			ap_attack = 60
-			air_attack = 25
- 
-	 	   #Misc Abilities
-	 		build_cost_ic = 4.5
-			
-	    }
- 
-	    xp_cost = 5
- 
-	    build_cost_resources = {
-	 	  steel = 1
-	    }
-	 }
- 
-	 advanced_aa_weapon = {
-	    category = aa_weapon_type
-	    parent = improved_aa_weapon
+	   	forbid_equipment_type_exact_match = armor
 
-		allow_equipment_type = anti_air
-		forbid_equipment_type_exact_match = armor
-
-	    add_stats = {
-	 	   #Defensive Abilities
-			defense = 4
-			breakthrough = 1
- 
-	 	   #Offensive Abilities
-			soft_attack = 4
-			hard_attack = 15
-			ap_attack = 88
-			air_attack = 32
- 
-	 	   #Misc Abilities
-			build_cost_ic = 5.5
-			
-	    }
- 
-	    xp_cost = 5
- 
-	    build_cost_resources = {
-	 	  steel = 2
-	    }
-	 }
-	# Anti-Tank weapon
-	 regular_at_weapon = {
-		category = at_weapon_type
-
-		allow_equipment_type = anti_tank
-		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			#Defensive Abilities
-			 defense = 4
-			 hardness = 0.1
+			 defense = 15
+		   	 breakthrough = 12
 
 			#Offensive Abilities
-			 soft_attack = 4
-			 hard_attack = 20
-			 ap_attack = 60
+			 soft_attack = 36
+			 hard_attack = 1
+			 ap_attack = 2
 
 			#Misc Abilities
-			 build_cost_ic = 2.5
-			 
+			 fuel_consumption = 1.2
+			 build_cost_ic = 11.5
 		}
 
 		xp_cost = 0
 
 		build_cost_resources = {
-		   	steel = 1
 		   	tungsten = 2
 		}
 	 }
- 
-	 improved_at_weapon = {
-	    category = at_weapon_type
-	    parent = regular_at_weapon
- 
-	    allow_equipment_type = anti_tank
-	    forbid_equipment_type_exact_match = armor
-	    add_stats = {
-	 		#Defensive Abilities
-	 		 defense = 4
-	 		 hardness = 0.1
- 
-	 	   #Offensive Abilities
-	 	    hard_attack = 22
-	 	    ap_attack = 90
- 
-	 	   #Misc Abilities
-	 		build_cost_ic = 4.5
-	 	    
-	    }
- 
-	    xp_cost = 5
- 
-	    build_cost_resources = {
-	 		tungsten = 2
-	 		chromium = 1
-	 	  	steel = 1
-	    }
+
+	
+	# Special Modules
+	 multiple_launcher = {
+		category = rocket_special_modules
+		allow_equipment_type = rocket
+
+		multiply_stats = {
+			soft_attack = 0.15
+		}
+		add_stats = {
+			#Misc Abilities
+			 build_cost_ic = 0.05
+		}
+
+		xp_cost = 5
 	 }
- 
-	 advanced_at_weapon = {
-	    category = at_weapon_type
-	    parent = improved_at_weapon
-	    
-	    allow_equipment_type = anti_tank
-	    forbid_equipment_type_exact_match = armor
-	    add_stats = {
-	 	   #Defensive Abilities
-	 	    defense = 4
-	 	    hardness = 0.1
- 
-	 	   #Offensive Abilities
-	 	    hard_attack = 30
-	 	    ap_attack = 125
- 
-	 	   #Misc Abilities
-	 	   build_cost_ic = 5.5
-	 	   
-	    }
- 
-	    xp_cost = 5
- 
-	    build_cost_resources = {
-	 	  	steel = 2
-	 		tungsten = 2
-	 		chromium = 1
-	    }
+
+	 heavy_rockets = {
+		category = rocket_special_modules
+		allow_equipment_type = rocket
+
+		multiply_stats = {
+			soft_attack = 0.15
+		}
+		add_stats = {
+			#Misc Abilities
+			 build_cost_ic = 0.1
+		}
+
+		xp_cost = 5
 	 }
+
+
+	 hydraulic_recoil = {
+		category = artillery_special_modules
+		allow_equipment_type = artillery
+
+		multiply_stats = {
+			soft_attack = 0.1
+		}
+		add_stats = {
+			#Misc Abilities
+			 reliability = 0.1
+			 build_cost_ic = 0.05
+		}
+
+		xp_cost = 5
+	 }
+
+	 gas_screen = {
+		category = artillery_special_modules
+		allow_equipment_type = artillery
+
+		multiply_stats = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+		}
+		add_stats = {
+			#Misc Abilities
+			 defense = -5
+			 reliability = 0.1
+			 build_cost_ic = 0.1
+		}
+
+		xp_cost = 5
+	 }
+	 smoke_screen = {
+		category = artillery_special_modules
+		allow_equipment_type = artillery
+
+		add_stats = {
+			defense = 5
+			#Misc Abilities
+			 reliability = 0.1
+			 build_cost_ic = 0.05
+		}
+
+		xp_cost = 5
+	 }
+
+
 }
