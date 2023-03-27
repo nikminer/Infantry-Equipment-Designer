@@ -10,6 +10,7 @@ technologies = {
 			gw_art_weapon	
 			standart_carriage
 			fullArmor
+			gas_screen
 		}
 
 		path = {
@@ -86,7 +87,6 @@ technologies = {
 			tank_close_support_gun
 			secondary_turret_close_support_gun
 			regular_art_weapon
-			gas_screen
 		}
 
 		path = {

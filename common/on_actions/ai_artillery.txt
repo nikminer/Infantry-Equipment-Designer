@@ -1,0 +1,500 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			# artillery
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = gw_artillery
+					not = {
+						has_country_flag = artillery_GW_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 1
+					modules = {
+						main_weapon_slot = gw_art_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				set_country_flag = artillery_GW_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = interwar_artillery
+					has_army_experience > 5
+					not = {
+						has_country_flag = artillery_interwar_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 2
+					modules = {
+						main_weapon_slot = regular_art_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = artillery_interwar_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = artillery2
+					has_army_experience > 10
+					not = {
+						has_country_flag = artillery_2_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 3
+					modules = {
+						main_weapon_slot = regular_art_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = longer_barrels
+						special_type_slot_2 = muzzle_break
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -10
+				set_country_flag = artillery_2_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = artillery1
+					has_army_experience > 5
+					not = {
+						has_country_flag = artillery_1_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 4
+					modules = {
+						main_weapon_slot = improved_art_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = longer_barrels
+						special_type_slot_2 = hydraulic_recoil
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = artillery_1_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = artillery3
+					has_army_experience > 10
+					not = {
+						has_country_flag = artillery_3_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 5
+					modules = {
+						main_weapon_slot = improved_art_weapon
+						armor_slot = fullArmor
+						carriage_slot = ligher_carriage
+						special_type_slot_1 = longer_barrels
+						special_type_slot_2 = hydraulic_recoil
+						special_type_slot_3 = muzzle_break
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -10
+				set_country_flag = artillery_3_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = artillery4
+					has_army_experience > 10
+					not = {
+						has_country_flag = artillery_4_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 6
+					modules = {
+						main_weapon_slot = advanced_art_weapon
+						armor_slot = fullArmor
+						carriage_slot = ligher_carriage
+						special_type_slot_1 = longer_barrels
+						special_type_slot_2 = hydraulic_recoil
+						special_type_slot_3 = muzzle_break
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -10
+				set_country_flag = artillery_4_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = artillery5
+					has_army_experience > 5
+					not = {
+						has_country_flag = artillery_5_flag
+					}
+				}
+				create_equipment_variant = {
+					type = artillery_equipment_1
+					parent_version = 6
+					modules = {
+						main_weapon_slot = advanced_art_weapon
+						armor_slot = lowerArmor
+						carriage_slot = ligher_carriage
+						special_type_slot_1 = longer_barrels
+						special_type_slot_2 = hydraulic_recoil
+						special_type_slot_3 = muzzle_break
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = artillery_5_flag
+			}
+
+			# Anti Air
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = interwar_antiair
+					has_army_experience > 5
+					not = {
+						has_country_flag = antiair_interwar_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 1
+					modules = {
+						main_weapon_slot = regular_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = wheels_carriage
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antiair_interwar_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antiair1
+					has_army_experience > 5
+					not = {
+						has_country_flag = antiair_1_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 2
+					modules = {
+						main_weapon_slot = regular_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = wheels_carriage
+						special_type_slot_1 = fast_reloading_aa
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antiair_1_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antiair2
+					has_army_experience > 5
+					not = {
+						has_country_flag = antiair_2_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 3
+					modules = {
+						main_weapon_slot = improved_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = wheels_carriage
+						special_type_slot_1 = fast_reloading_aa
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antiair_2_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antiair3
+					has_army_experience > 5
+					not = {
+						has_country_flag = antiair_3_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 4
+					modules = {
+						main_weapon_slot = improved_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = wheels_carriage
+						special_type_slot_1 = fast_reloading_aa
+						special_type_slot_2 = radar_aa
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antiair_3_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antiair4
+					has_army_experience > 5
+					not = {
+						has_country_flag = antiair_4_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 5
+					modules = {
+						main_weapon_slot = improved_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = wheels_carriage
+						special_type_slot_1 = fast_reloading_aa
+						special_type_slot_2 = radar_aa
+						special_type_slot_3 = computer_aa
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antiair_4_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antiair5
+					has_army_experience > 5
+					not = {
+						has_country_flag = antiair_5_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 6
+					modules = {
+						main_weapon_slot = advanced_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = wheels_carriage
+						special_type_slot_1 = fast_reloading_aa
+						special_type_slot_2 = radar_aa
+						special_type_slot_3 = computer_aa
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antiair_5_flag
+			}
+
+			# Anit Tank
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = interwar_antitank
+					has_army_experience > 5
+					not = {
+						has_country_flag = antitank_interwar_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 1
+					modules = {
+						main_weapon_slot = regular_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antitank_interwar_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antitank1
+					has_army_experience > 5
+					not = {
+						has_country_flag = antitank_1_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 2
+					modules = {
+						main_weapon_slot = regular_aa_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = squeezebore_at_adaptor
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antitank_1_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antitank2
+					has_army_experience > 5
+					not = {
+						has_country_flag = antitank_2_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 3
+					modules = {
+						main_weapon_slot = improved_at_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = squeezebore_at_adaptor
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antitank_2_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antitank3
+					has_army_experience > 5
+					not = {
+						has_country_flag = antitank_3_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 4
+					modules = {
+						main_weapon_slot = improved_at_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = squeezebore_at_adaptor
+						special_type_slot_2 = blasting_shells
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antitank_3_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antiair4
+					has_army_experience > 5
+					not = {
+						has_country_flag = antitank_4_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 5
+					modules = {
+						main_weapon_slot = improved_at_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = squeezebore_at_adaptor
+						special_type_slot_2 = blasting_shells
+						special_type_slot_3 = two_stage_shells
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antitank_4_flag
+			}
+
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = antitank5
+					has_army_experience > 5
+					not = {
+						has_country_flag = antitank_5_flag
+					}
+				}
+				create_equipment_variant = {
+					type = anti_air_equipment_1
+					parent_version = 6
+					modules = {
+						main_weapon_slot = advanced_at_weapon
+						armor_slot = fullArmor
+						carriage_slot = standart_carriage
+						special_type_slot_1 = squeezebore_at_adaptor
+						special_type_slot_2 = blasting_shells
+						special_type_slot_3 = two_stage_shells
+						special_type_slot_4 = empty
+					}
+				}
+				army_experience = -5
+				set_country_flag = antitank_5_flag
+			}
+		}
+	}
+}
