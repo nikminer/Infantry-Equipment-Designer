@@ -5,6 +5,20 @@ equipment_modules = {
 	    
 	 	allow_equipment_type = artillery
  
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				artillery_special_modules
+			}
+			special_type_slot_2 = {
+				artillery_special_modules
+			}
+			special_type_slot_3 = {
+				artillery_special_modules
+			}
+			special_type_slot_4 = {
+				artillery_special_modules
+			}
+		}
 	    forbid_equipment_type_exact_match = armor
  
 	 	add_stats = {
@@ -32,7 +46,20 @@ equipment_modules = {
 	 	category = artilery_weapon_type
 		parent = gw_art_weapon
  		allow_equipment_type = artillery
-
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				artillery_special_modules
+			}
+			special_type_slot_2 = {
+				artillery_special_modules
+			}
+			special_type_slot_3 = {
+				artillery_special_modules
+			}
+			special_type_slot_4 = {
+				artillery_special_modules
+			}
+		}
 		forbid_equipment_type_exact_match = armor
 
 		multiply_stats = {
@@ -66,6 +93,20 @@ equipment_modules = {
 		parent = regular_art_weapon
 
 		allow_equipment_type = artillery
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				artillery_special_modules
+			}
+			special_type_slot_2 = {
+				artillery_special_modules
+			}
+			special_type_slot_3 = {
+				artillery_special_modules
+			}
+			special_type_slot_4 = {
+				artillery_special_modules
+			}
+		}
 		forbid_equipment_type_exact_match = armor
 
 		multiply_stats = {
@@ -99,6 +140,20 @@ equipment_modules = {
 		parent = improved_art_weapon
 		
 		allow_equipment_type = artillery
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				artillery_special_modules
+			}
+			special_type_slot_2 = {
+				artillery_special_modules
+			}
+			special_type_slot_3 = {
+				artillery_special_modules
+			}
+			special_type_slot_4 = {
+				artillery_special_modules
+			}
+		}
 		forbid_equipment_type_exact_match = armor
 		
 		multiply_stats = {
@@ -129,10 +184,23 @@ equipment_modules = {
 
 	# Rocket Artillery
 	 basic_rocket_weapon = {
-	 	category = artilery_rocket_weapon_type
-	    
-	 	allow_equipment_type = rocket
+	 	category = artilery_weapon_type
  
+		allow_equipment_type = artillery
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				rocket_special_modules
+			}
+			special_type_slot_2 = {
+				rocket_special_modules
+			}
+			special_type_slot_3 = {
+				rocket_special_modules
+			}
+			special_type_slot_4 = {
+				rocket_special_modules
+			}
+		}
 	    forbid_equipment_type_exact_match = armor
  
 	 	add_stats = {
@@ -141,8 +209,8 @@ equipment_modules = {
 			breakthrough = 9
  
 	 		#Offensive Abilities
-			 soft_attack = 30
-			 hard_attack = 1
+			 soft_attack = 13
+			 hard_attack = 13
 			 ap_attack = 2
  
 	 		#Misc Abilities
@@ -157,10 +225,24 @@ equipment_modules = {
 	 }
 
 	 improved_rocket_weapon = {
-		category = artilery_rocket_weapon_type
+		category = artilery_weapon_type
 		parent = basic_rocket_weapon
-		allow_equipment_type = rocket
 
+		allow_equipment_type = artillery
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				rocket_special_modules
+			}
+			special_type_slot_2 = {
+				rocket_special_modules
+			}
+			special_type_slot_3 = {
+				rocket_special_modules
+			}
+			special_type_slot_4 = {
+				rocket_special_modules
+			}
+		}
 	   	forbid_equipment_type_exact_match = armor
 
 		add_stats = {
@@ -169,8 +251,8 @@ equipment_modules = {
 		   	 breakthrough = 12
 
 			#Offensive Abilities
-			 soft_attack = 36
-			 hard_attack = 1
+			 soft_attack = 18
+			 hard_attack = 18
 			 ap_attack = 2
 
 			#Misc Abilities
@@ -189,10 +271,11 @@ equipment_modules = {
 	# Special Modules
 	 multiple_launcher = {
 		category = rocket_special_modules
-		allow_equipment_type = rocket
-
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 		multiply_stats = {
-			soft_attack = 0.15
+			soft_attack = 0.075
+			hard_attack = 0.075
 		}
 		add_stats = {
 			#Misc Abilities
@@ -204,10 +287,11 @@ equipment_modules = {
 
 	 heavy_rockets = {
 		category = rocket_special_modules
-		allow_equipment_type = rocket
-
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 		multiply_stats = {
-			soft_attack = 0.15
+			soft_attack = 0.075
+			hard_attack = 0.075
 		}
 		add_stats = {
 			#Misc Abilities
@@ -221,7 +305,7 @@ equipment_modules = {
 	 hydraulic_recoil = {
 		category = artillery_special_modules
 		allow_equipment_type = artillery
-
+		forbid_equipment_type_exact_match = armor
 		multiply_stats = {
 			soft_attack = 0.1
 		}
@@ -237,14 +321,14 @@ equipment_modules = {
 	 gas_screen = {
 		category = artillery_special_modules
 		allow_equipment_type = artillery
-
+		forbid_equipment_type_exact_match = armor
 		multiply_stats = {
 			soft_attack = 0.2
 			hard_attack = 0.2
 		}
 		add_stats = {
 			#Misc Abilities
-			 defense = -5
+			 defense = -7
 			 reliability = 0.1
 			 build_cost_ic = 0.1
 		}
@@ -254,9 +338,9 @@ equipment_modules = {
 	 smoke_screen = {
 		category = artillery_special_modules
 		allow_equipment_type = artillery
-
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
-			defense = 5
+			defense = 4
 			#Misc Abilities
 			 reliability = 0.1
 			 build_cost_ic = 0.05

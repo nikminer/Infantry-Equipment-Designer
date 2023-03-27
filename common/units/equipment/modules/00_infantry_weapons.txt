@@ -106,6 +106,7 @@ equipment_modules = {
 	 	add_stats = {		 
 	 		#Misc Abilities
 	 		 build_cost_ic = 0.05
+			 weight = 0.3
 	 	}
  
 	 	xp_cost = 0
@@ -121,6 +122,7 @@ equipment_modules = {
 		add_stats = {
 			#Misc Abilities
 			 build_cost_ic = 0.06
+			 weight = 0.3
 		}
 
 		xp_cost = 2
@@ -138,6 +140,7 @@ equipment_modules = {
 		add_stats = {
 			#Misc Abilities
 			 build_cost_ic = 0.07
+			 weight = 0.3
 		}
 
 		xp_cost = 2
@@ -154,6 +157,7 @@ equipment_modules = {
 		add_stats = {
 			#Misc Abilities
 			 build_cost_ic = 0.08
+			 weight = 0.3
 		}
 
 		xp_cost = 2
@@ -168,9 +172,8 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			
-			#Misc Abilities
-			 build_cost_ic = 0.05
+			build_cost_ic = 0.05
+			weight = 0.3
 		}
 
 		xp_cost = 0
@@ -188,6 +191,7 @@ equipment_modules = {
 	 	add_stats = {
 	 		#Misc Abilities
 	 		 build_cost_ic = 0.06
+			 weight = 0.3
 	 	}
  
 	 	xp_cost = 2
@@ -205,6 +209,7 @@ equipment_modules = {
 		add_stats = {
 			#Misc Abilities
 			 build_cost_ic = 0.07
+			 weight = 0.3
 		}
 
 		xp_cost = 2
@@ -222,6 +227,7 @@ equipment_modules = {
 		add_stats = {
 			#Misc Abilities
 			 build_cost_ic = 0.08
+			 weight = 0.3
 		}
 
 		xp_cost = 2
@@ -254,6 +260,7 @@ equipment_modules = {
 
 			#Misc Abilities
 			 build_cost_ic = 0.1
+			 weight = 0.1
 		}
 
 		xp_cost = 3
@@ -270,6 +277,7 @@ equipment_modules = {
 
 			#Misc Abilities
 			 build_cost_ic = 0.12
+			 weight = 0.2
 		}
 
 		xp_cost = 5
@@ -290,6 +298,7 @@ equipment_modules = {
 
 			#Misc Abilities
 			 build_cost_ic = 0.15
+			 weight = 0.3
 		}
 
 		xp_cost = 5
@@ -306,7 +315,6 @@ equipment_modules = {
 			maximum_speed = 1
 			#Defensive Abilities
 			 defense = 1
-
 			#Misc Abilities
 			 build_cost_ic = 0.01
 		}
@@ -320,10 +328,12 @@ equipment_modules = {
 
 		add_stats = {
 			#Defensive Abilities
-			 defense = 5
+			 defense = 3
 			 armor_value = 1
+			 hardness = -0.05
 			#Misc Abilities
 			 build_cost_ic = 0.05
+			 weight = 0.1
 		}
 
 		xp_cost = 3
@@ -337,10 +347,12 @@ equipment_modules = {
 			maximum_speed = -0.5
 
 			#Defensive Abilities
-			 defense = 10
+			 defense = 4
 			 armor_value = 3
+			 hardness = -0.1
 			#Misc Abilities
 			 build_cost_ic = 0.15
+			 weight = 0.15
 		}
 		build_cost_resources = {
 			steel = 1
@@ -349,94 +361,80 @@ equipment_modules = {
 		xp_cost = 5
 	 }
 	# Special Modules
-	 bandaging_package = {
-		category = infantry_special_modules
+	 # Individual
+	  bandaging_package = {
+	 	category = infantry_special_modules
+ 
+	 	add_stats = {
+	 		 casualty_trickleback = 0.003
+	 		 experience_loss_factor = -0.01
+	 		 default_morale = 0.01
+	 		 weight = 0.1
+ 
+	 		#Misc Abilities
+	 		 build_cost_ic = 0.05
+	 	}
+ 
+	 	xp_cost = 5
+	  }
+ 
+	  sapper_shovels = {
+	 	category = infantry_special_modules
+ 
+	 	multiply_stats = {
+	 		soft_attack = 0.02
+	 	}
+	 	add_stats = {
+	 		#Defensive Abilities
+	 		 defense = 1
+	 		 entrenchment = 0.5
+	 		 default_morale = 0.05
+ 
+	 		#Misc Abilities
+	 		 weight = 0.15
+	 		 build_cost_ic = 0.05
+	 	}
+ 
+	 	xp_cost = 5
+	  }
 
-		add_stats = {
-			 casualty_trickleback = 0.003
-			 experience_loss_factor = -0.01
-			 default_morale = 0.01
+	  additional_grenades = {
+	 	category = infantry_special_modules
+ 
+	 	multiply_stats = {
+	 		#Offensive Abilities
+	 		 hard_attack = 0.2
+	 		 breakthrough = 0.1
+	 		 maximum_speed = -0.05
+	 	}
+ 
+	 	add_stats = {
+	 		weight = 0.35
+	 		build_cost_ic = 0.05
+	 	}
+ 
+	 	xp_cost = 5
+	  }
 
-			#Misc Abilities
-			 build_cost_ic = 0.05
-		}
+	  additional_ammo = {
+	 	category = infantry_special_modules
+ 
+	 	multiply_stats = {
+	 		#Offensive Abilities
+	 		 soft_attack = 0.1
+	 		 entrenchment = 0.1
+	 		 maximum_speed = -0.05
+	 	}
+ 
+	 	add_stats = {
+	 		weight = 0.35
+	 		build_cost_ic = 0.1
+	 	}
+ 
+	 	xp_cost = 5
+	  }
 
-		xp_cost = 5
-	 }
-
-	 sapper_shovels = {
-		category = infantry_special_modules
-
-		multiply_stats = {
-			soft_attack = 0.02
-		}
-		add_stats = {
-			#Defensive Abilities
-			 defense = 1
-			 entrenchment = 0.5
-			 default_morale = 0.05
-
-			#Misc Abilities
-			 build_cost_ic = 0.05
-		}
-
-		xp_cost = 5
-	 }
-
-	 additional_grenades = {
-		category = infantry_special_modules
-
-		multiply_stats = {
-			#Offensive Abilities
-			 hard_attack = 0.2
-			 breakthrough = 0.1
-			 maximum_speed = -0.05
-		}
-
-		add_stats = {
-			#Misc Abilities
-			 build_cost_ic = 0.05
-		}
-
-		xp_cost = 5
-	 }
-
-	 additional_ammo = {
-		category = infantry_special_modules
-
-		multiply_stats = {
-			#Offensive Abilities
-			 soft_attack = 0.1
-			 entrenchment = 0.1
-			 maximum_speed = -0.05
-		}
-
-		add_stats = {
-			#Misc Abilities
-			 build_cost_ic = 0.1
-		}
-
-		xp_cost = 5
-	 }
-
-	 sniper_support = {
-		category = infantry_special_modules
-
-		multiply_stats = {
-			#Offensive Abilities
-			 soft_attack = 0.1
-			 entrenchment = 0.1
-		}
-
-		add_stats = {
-			#Misc Abilities
-			 build_cost_ic = 0.1
-		}
-		manpower = 20
-		xp_cost = 5
-	 }
-
-	 binoculars = {
+	  binoculars = {
 		category = infantry_special_modules
 
 		add_stats = {
@@ -444,13 +442,14 @@ equipment_modules = {
 			 soft_attack = 0.1
 			 recon = 0.2
 			#Misc Abilities
+			 weight = 0.1
 			 build_cost_ic = 0.05
 		}
 
 		xp_cost = 5
-	 }
+	  }
 
-	 night_vision_device = {
+	  night_vision_device = {
 		category = infantry_special_modules
 
 		multiply_stats = {
@@ -463,29 +462,14 @@ equipment_modules = {
 			 defense = 1
 
 			#Misc Abilities
+			 weight = 0.1
 			 build_cost_ic = 0.5
 		}
 
 		xp_cost = 5
-	 }
+	  }
 
-	 gun_grease = {
-		category = infantry_special_modules
-
-		multiply_stats = {
-			soft_attack = 0.05
-			reliability = 0.1
-		}
-
-		add_stats = {
-			#Misc Abilities
-			 build_cost_ic = 0.1
-		}
-
-		xp_cost = 5
-	 }
-
-	 molotov_cocktail = {
+	  molotov_cocktail = {
 		category = infantry_special_modules
 
 		multiply_stats = {
@@ -497,29 +481,66 @@ equipment_modules = {
 
 		add_stats = {
 			fuel_consumption = 0.2
-			#Misc Abilities
-			 build_cost_ic = 0.05
+			build_cost_ic = 0.05
+			weight = 0.2
+			reliability = -0.1
 		}
 
 		xp_cost = 5
-	 }
+	  }
+	  
+	  gun_grease = {
+	 	category = infantry_special_modules
+ 
+	 	multiply_stats = {
+	 		soft_attack = 0.05
+	 		reliability = 0.1
+	 	}
+ 
+	 	add_stats = {
+	 		weight = 0.1
+	 		build_cost_ic = 0.1
+	 	}
+ 
+	 	xp_cost = 5
+	  }
 
-	 flame_support = {
-		category = infantry_special_modules
-		parent = molotov_cocktail
-		multiply_stats = {
-			#Offensive Abilities
-			 hard_attack = 0.1
-			 breakthrough = 0.3
-			 soft_attack = 0.15
-		}
+	 # Extend squad
+	  sniper_support = {
+	 	category = infantry_special_modules_extend
+ 
+	 	multiply_stats = {
+	 		#Offensive Abilities
+	 		 soft_attack = 0.1
+	 		 entrenchment = 0.1
+	 	}
+ 
+	 	add_stats = {
+	 		max_organisation = -0.1
+	 		build_cost_ic = 0.1
+	 	}
+	 	manpower = 20
+	 	xp_cost = 5
+	  }
 
-		add_stats = {
-			fuel_consumption = 0.5
-			#Misc Abilities
-			 build_cost_ic = 0.15
-		}
-		manpower = 50
-		xp_cost = 10
-	 }
+	  flame_support = {
+	 	category = infantry_special_modules_extend
+	 	parent = molotov_cocktail
+	 	multiply_stats = {
+	 		#Offensive Abilities
+	 		 hard_attack = 0.1
+	 		 breakthrough = 0.3
+	 		 soft_attack = 0.15
+	 	}
+ 
+	 	add_stats = {
+	 		fuel_consumption = 0.5
+	 		max_organisation = -0.1
+	 		build_cost_ic = 0.15
+	 		weight = 0.2
+			defense = -1
+	 	}
+	 	manpower = 50
+	 	xp_cost = 10
+	  }
 }

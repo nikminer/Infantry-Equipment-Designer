@@ -24,5 +24,18 @@ default = {
 				GFX_designer_art_generic
 			}
 		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_rocket_artillery_equipment_generic
+			}
+		}
+
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_rocket_artillery_equipment
+			}
+		}
 	}
 }

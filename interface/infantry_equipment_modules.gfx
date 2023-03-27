@@ -104,6 +104,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/advanced_anti_tank.dds"
 	}
  # Special Modules
+
+    spriteType = {
+    	name = "GFX_EMI_infantry_special_modules"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_special_modules.dds"
+    }
+
+	spriteType = {
+    	name = "GFX_EMI_infantry_special_modules_extend"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_special_modules_extend.dds"
+    }
  	spriteType = {
 		name = "GFX_EMI_bandaging_package"
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/bandaging_package.dds"

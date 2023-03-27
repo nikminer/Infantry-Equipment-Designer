@@ -65,7 +65,20 @@ equipment_modules = {
  
 	    allow_equipment_type = anti_air
 	    forbid_equipment_type_exact_match = armor
- 
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				antiair_special_modules
+			}
+			special_type_slot_2 = {
+				antiair_special_modules
+			}
+			special_type_slot_3 = {
+				antiair_special_modules
+			}
+			special_type_slot_4 = {
+				antiair_special_modules
+			}
+		}
 	    add_stats = {
 	 	   #Defensive Abilities
 	 	   defense = 4
@@ -88,4 +101,50 @@ equipment_modules = {
 	 	  steel = 2
 	    }
 	 }
+	# Special Modules
+	 radar_aa = {
+		category = antiair_special_modules
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		multiply_stats = {
+			air_attack = 0.10
+		}
+		add_stats = {
+			#Misc Abilities
+			 build_cost_ic = 0.05
+		}
+
+		xp_cost = 5
+	 }
+
+	 fast_reloading_aa = {
+		category = antiair_special_modules
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		multiply_stats = {
+			air_attack = 0.10
+		}
+		add_stats = {
+			#Misc Abilities
+			 build_cost_ic = 0.05
+		}
+
+		xp_cost = 5
+	 }
+
+	 computer_aa = {
+		category = antiair_special_modules
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		multiply_stats = {
+			air_attack = 0.10
+		}
+		add_stats = {
+			#Misc Abilities
+			 build_cost_ic = 0.05
+		}
+
+		xp_cost = 5
+	 }
+
 }

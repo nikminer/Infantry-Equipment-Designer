@@ -96,33 +96,27 @@
   advanced_defence_support_desc: ""
 
  # Special Modules
+  EQ_MOD_CAT_infantry_special_modules_TITLE: "Additional equipment"
   bandaging_package: "Bandaging package"
   bandaging_package_desc: "The bandaging package allows you to provide first aid on the battlefield quickly and without waiting for medics."
-
   sapper_shovels: "Sapper shovels"
   sapper_shovels_desc: "Sapper shovels allow soldiers to dig trenches, and are also a good melee weapon."
-
   additional_grenades: "Additional AT grenades"
   additional_grenades_desc: "Additional anti-tank grenades allow the soldier to destroy more armored vehicles."
-
   additional_ammo: "Additional ammunition"
   additional_ammo_desc: "Additional ammunition allows the soldier to fire at infantry for longer."
-
-  sniper_support: "Sniper support"
-  sniper_support_desc: "Sniper support allows you to eliminate opponents from a long distance."
-
   binoculars: "Binoculars"
   binoculars_desc: "Binoculars allow soldiers to conduct minimal reconnaissance."
-
   night_vision_device: "Night vision"
   night_vision_device_desc: "Night vision devices allow for night operations."
-
   gun_grease: "Gun Grease"
   gun_grease_desc: "Gun grease improves the reliability of the weapon and reduces the chance of misfiring."
-
   molotov_cocktail: "Molotov Cocktail"
   molotov_cocktail_desc: "The Molotov cocktail consists of a bottle, a rag and leaked gasoline, which allows soldiers to set fire to any enemy positions, which makes defense difficult."
 
+  EQ_MOD_CAT_infantry_special_modules_extend_TITLE: "Squad Extensions"
+  sniper_support: "Sniper support"
+  sniper_support_desc: "Sniper support allows you to eliminate opponents from a long distance."
   flame_support: "Flamethrower Support"
   flame_support_desc: "Flamethrowers are very effective at assaulting enemy positions, the flamethrower spreads fire on a larger scale and at more effective distances than a Molotov cocktail, which makes it much more difficult for the enemy to defend."
 

@@ -22,6 +22,10 @@ spriteTypes = {
 	 }
 
 	 spriteType = {
+		name = "GFX_EMI_artilery_rocket_weapon_type"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/rocket_main_weapon_type.dds"
+	}
+	 spriteType = {
 		name = "GFX_EMI_basic_rocket_weapon"
 		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/basic_rocket_weapon.dds"
 	 }
@@ -100,12 +104,20 @@ spriteTypes = {
 
 	# Special Modules
 	 spriteType = {
+	 	name = "GFX_EMI_carriage_special_modules"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/carriage_special_modules.dds"
+	 }
+	 spriteType = {
 	 	name = "GFX_EMI_muzzle_break"
 	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/muzzle_break.dds"
 	 }
 	 spriteType = {
 	 	name = "GFX_EMI_longer_barrels"
 	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/longer_barrels.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_antitank_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/antitank_special_modules.dds"
 	 }
 	 spriteType = {
 		name = "GFX_EMI_squeezebore_at_adaptor"
@@ -119,6 +131,11 @@ spriteTypes = {
 	 	name = "GFX_EMI_two_stage_shells"
 	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/two_stage_shells.dds"
 	 }
+
+	 spriteType = {
+		name = "GFX_EMI_artillery_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/artillery_special_modules.dds"
+	 }
 	 spriteType = {
 		name = "GFX_EMI_smoke_screen"
 		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/smoke_screen.dds"
@@ -131,6 +148,11 @@ spriteTypes = {
 		name = "GFX_EMI_hydraulic_recoil"
 		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/hydraulic_recoil.dds"
 	 }
+
+	 spriteType = {
+		name = "GFX_EMI_rocket_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/rocket_special_modules.dds"
+	 }
 	 spriteType = {
 		name = "GFX_EMI_heavy_rockets"
 		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/heavy_rockets.dds"
@@ -139,4 +161,22 @@ spriteTypes = {
 		name = "GFX_EMI_multiple_launcher"
 		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/multiple_launcher.dds"
 	 }
+
+	 spriteType = {
+		name = "GFX_EMI_antiair_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/antiair_special_modules.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_fast_reloading_aa"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/fast_reloading_aa.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_radar_aa"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/radar_aa.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_computer_aa"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/computer_aa.dds"
+	 }
+
 }

@@ -5,6 +5,20 @@ equipment_modules = {
 
 		allow_equipment_type = anti_tank
 		forbid_equipment_type_exact_match = armor
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				antitank_special_modules
+			}
+			special_type_slot_2 = {
+				antitank_special_modules
+			}
+			special_type_slot_3 = {
+				antitank_special_modules
+			}
+			special_type_slot_4 = {
+				antitank_special_modules
+			}
+		}
 		add_stats = {
 			#Defensive Abilities
 			 defense = 4
@@ -33,6 +47,20 @@ equipment_modules = {
 	    parent = regular_at_weapon
  
 	    allow_equipment_type = anti_tank
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				antitank_special_modules
+			}
+			special_type_slot_2 = {
+				antitank_special_modules
+			}
+			special_type_slot_3 = {
+				antitank_special_modules
+			}
+			special_type_slot_4 = {
+				antitank_special_modules
+			}
+		}
 	    forbid_equipment_type_exact_match = armor
 	    add_stats = {
 	 		#Defensive Abilities
@@ -62,6 +90,20 @@ equipment_modules = {
 	    parent = improved_at_weapon
 	    
 	    allow_equipment_type = anti_tank
+		allowed_module_categories = {
+			special_type_slot_1 = {
+				antitank_special_modules
+			}
+			special_type_slot_2 = {
+				antitank_special_modules
+			}
+			special_type_slot_3 = {
+				antitank_special_modules
+			}
+			special_type_slot_4 = {
+				antitank_special_modules
+			}
+		}
 	    forbid_equipment_type_exact_match = armor
 	    add_stats = {
 	 	   #Defensive Abilities
@@ -89,7 +131,7 @@ equipment_modules = {
 	 squeezebore_at_adaptor = {
 		category = antitank_special_modules
 		allow_equipment_type = anti_tank
-
+		forbid_equipment_type_exact_match = armor
 		xp_cost = 5
 
 		multiply_stats = {
@@ -104,7 +146,7 @@ equipment_modules = {
 	 blasting_shells = {
 		category = antitank_special_modules
 		allow_equipment_type = anti_tank
-
+		forbid_equipment_type_exact_match = armor
 		xp_cost = 5
 
 		multiply_stats = {
@@ -120,7 +162,7 @@ equipment_modules = {
 	 two_stage_shells = {
 		category = antitank_special_modules
 		allow_equipment_type = anti_tank
-
+		forbid_equipment_type_exact_match = armor
 		xp_cost = 5
 
 		multiply_stats = {
