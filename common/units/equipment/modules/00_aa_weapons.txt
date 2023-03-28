@@ -155,6 +155,7 @@ equipment_modules = {
 		add_stats = {
 			#Misc Abilities
 			 build_cost_ic = 0.05
+			 reliability = -0.1
 		}
 
 		xp_cost = 5
