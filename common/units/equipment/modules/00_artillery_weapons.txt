@@ -257,7 +257,7 @@ equipment_modules = {
 
 			#Misc Abilities
 			 fuel_consumption = 1.2
-			 build_cost_ic = 5
+			 build_cost_ic = 4.5
 		}
 
 		xp_cost = 5
