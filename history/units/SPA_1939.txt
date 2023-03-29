@@ -1,4 +1,8 @@
-﻿##### Division Templates #####
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+##### Division Templates #####
 division_template = {
 	name = "División de Infantería" 		# Regular infantry divisions, all at reserve levels in 1939
 	division_names_group = SPA_INF_01
@@ -391,7 +395,7 @@ units = {
 
 
 ### Starting Production ###
-instant_effect = {
+instant_effect = {	
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -412,7 +416,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "SPR"
 		}
 		requested_factories = 1

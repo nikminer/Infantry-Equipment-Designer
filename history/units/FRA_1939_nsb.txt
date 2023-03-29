@@ -1,4 +1,8 @@
-﻿##### Division Templates #####
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"		
 	division_names_group = FRA_INF_01
@@ -1434,8 +1438,6 @@ units = {
 #########################
 
 instant_effect = {
-
-
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -1458,7 +1460,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "FRA" 
 		}
 		requested_factories = 1

@@ -1,4 +1,8 @@
-﻿start_equipment_factor = 0.1
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+start_equipment_factor = 0.1
 ##### Division Templates #####
 division_template = {
 	name = "Infantry Division"  	# Standard formation for frontline divisions
@@ -543,8 +547,7 @@ units = {
 #########################
 ## STARTING PRODUCTION ##
 #########################
-instant_effect = {
-		
+instant_effect = {	
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -567,7 +570,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "USA" 
 		}
 		requested_factories = 1

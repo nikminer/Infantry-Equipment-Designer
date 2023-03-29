@@ -1,4 +1,8 @@
-﻿division_template = {
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+division_template = {
 	name = "Divizia de Infanterie"		
 	# Note: also represents Guards, Fortress divisions
 
@@ -441,7 +445,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "ROM"
 		}
 		requested_factories = 1

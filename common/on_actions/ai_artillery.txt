@@ -10,20 +10,7 @@ on_actions = {
 						has_country_flag = artillery_GW_flag
 					}
 				}
-				create_equipment_variant = {
-					type = artillery_equipment_0
-					parent_version = 1
-					modules = {
-						main_weapon_slot = gw_art_weapon
-						armor_slot = fullArmor
-						carriage_slot = standart_carriage
-						special_type_slot_1 = empty
-						special_type_slot_2 = empty
-						special_type_slot_3 = empty
-						special_type_slot_4 = empty
-					}
-				}
-				set_country_flag = artillery_GW_flag
+				CreateGreatWarArt = yes
 			}
 
 			every_country = {
@@ -350,7 +337,7 @@ on_actions = {
 					type = anti_tank_equipment_0
 					parent_version = 1
 					modules = {
-						main_weapon_slot = regular_aa_weapon
+						main_weapon_slot = regular_at_weapon
 						armor_slot = fullArmor
 						carriage_slot = standart_carriage
 						special_type_slot_1 = empty
@@ -375,7 +362,7 @@ on_actions = {
 					type = anti_tank_equipment_0
 					parent_version = 2
 					modules = {
-						main_weapon_slot = regular_aa_weapon
+						main_weapon_slot = regular_at_weapon
 						armor_slot = fullArmor
 						carriage_slot = standart_carriage
 						special_type_slot_1 = squeezebore_at_adaptor

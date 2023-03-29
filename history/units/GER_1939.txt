@@ -1,4 +1,8 @@
-﻿division_template = {
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+division_template = {
 	name = "Infanterie-Division"					# Represents Infanterie Welles 1-4
 	division_names_group = GER_Inf_01
 
@@ -1359,7 +1363,6 @@ units = {
 #########################
 
 instant_effect = {
-
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -1382,7 +1385,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "GER" 
 		}
 		requested_factories = 2

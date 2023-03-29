@@ -1,0 +1,16 @@
+CreateGreatWarArt = {
+	create_equipment_variant = {
+		type = artillery_equipment_0
+		parent_version = 1
+		modules = {
+			main_weapon_slot = gw_art_weapon
+			armor_slot = fullArmor
+			carriage_slot = standart_carriage
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+	}
+	set_country_flag = artillery_GW_flag
+}

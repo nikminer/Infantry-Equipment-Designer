@@ -1,4 +1,8 @@
-﻿division_template = {
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+division_template = {
 	name = "Hohei Shidan" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
 	division_names_group = JAP_INF_01
 									# 1 engineering regiment, 1 recon regiment
@@ -652,8 +656,7 @@ units = {
 #########################
 ## STARTING PRODUCTION ##
 #########################
-instant_effect = 
-{
+instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -676,7 +679,7 @@ instant_effect =
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "JAP" 
 		}
 		requested_factories = 1

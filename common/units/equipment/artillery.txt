@@ -5,3 +5,26 @@ duplicate_archetypes = {
 		type = { armor artillery }
 	}
 }
+
+equipments = {
+	artillery_equipment_1 = {
+		year = 1934
+
+		archetype = artillery_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+		can_convert_from = { 
+			carriage_equipment_0
+		}	
+		default_modules = {
+			main_weapon_slot = gw_art_weapon
+			armor_slot = fullArmor
+			carriage_slot = standart_carriage
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+	}
+}

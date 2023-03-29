@@ -1,4 +1,8 @@
-﻿division_template = {
+﻿instant_effect = {
+	CreateGreatWarArt = yes
+}
+
+division_template = {
 	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
 	division_names_group = ENG_INF_01
 
@@ -419,7 +423,6 @@ units = {
 	## STARTING PRODUCTION ##
 	#########################
 instant_effect = {
-	
 
 	add_equipment_production = {
 		equipment = {
@@ -432,7 +435,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "ENG"
 		}
 		requested_factories = 2

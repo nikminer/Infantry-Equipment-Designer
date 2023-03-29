@@ -1,4 +1,9 @@
 ﻿start_equipment_factor = 0.2
+
+instant_effect = {
+	CreateGreatWarArt = yes
+}
+
 division_template = {
 	name = "Infanteri Division"	# represents first part of enlarged divisions
 	division_names_group = DEN_INF_01
@@ -116,7 +121,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "DEN" 
 		}
 		requested_factories = 1
