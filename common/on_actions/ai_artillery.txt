@@ -11,7 +11,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 1
 					modules = {
 						main_weapon_slot = gw_art_weapon
@@ -36,7 +36,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 2
 					modules = {
 						main_weapon_slot = regular_art_weapon
@@ -62,7 +62,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 3
 					modules = {
 						main_weapon_slot = regular_art_weapon
@@ -88,7 +88,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 4
 					modules = {
 						main_weapon_slot = improved_art_weapon
@@ -114,7 +114,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 5
 					modules = {
 						main_weapon_slot = improved_art_weapon
@@ -140,7 +140,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 6
 					modules = {
 						main_weapon_slot = advanced_art_weapon
@@ -166,7 +166,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					parent_version = 7
 					modules = {
 						main_weapon_slot = advanced_art_weapon
@@ -187,13 +187,12 @@ on_actions = {
 				limit = {
 					is_ai = yes
 					has_tech = interwar_antiair
-					has_army_experience > 5
 					not = {
 						has_country_flag = antiair_interwar_flag
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_air_equipment_0
 					parent_version = 1
 					modules = {
 						main_weapon_slot = regular_aa_weapon
@@ -205,7 +204,6 @@ on_actions = {
 						special_type_slot_4 = empty
 					}
 				}
-				army_experience = -5
 				set_country_flag = antiair_interwar_flag
 			}
 
@@ -219,7 +217,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_air_equipment_0
 					parent_version = 2
 					modules = {
 						main_weapon_slot = regular_aa_weapon
@@ -245,7 +243,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_air_equipment_0
 					parent_version = 3
 					modules = {
 						main_weapon_slot = improved_aa_weapon
@@ -271,7 +269,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_air_equipment_0
 					parent_version = 4
 					modules = {
 						main_weapon_slot = improved_aa_weapon
@@ -297,7 +295,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_air_equipment_0
 					parent_version = 5
 					modules = {
 						main_weapon_slot = improved_aa_weapon
@@ -323,7 +321,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_air_equipment_0
 					parent_version = 6
 					modules = {
 						main_weapon_slot = advanced_aa_weapon
@@ -344,13 +342,12 @@ on_actions = {
 				limit = {
 					is_ai = yes
 					has_tech = interwar_antitank
-					has_army_experience > 5
 					not = {
 						has_country_flag = antitank_interwar_flag
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_tank_equipment_0
 					parent_version = 1
 					modules = {
 						main_weapon_slot = regular_aa_weapon
@@ -362,7 +359,6 @@ on_actions = {
 						special_type_slot_4 = empty
 					}
 				}
-				army_experience = -5
 				set_country_flag = antitank_interwar_flag
 			}
 
@@ -376,7 +372,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_tank_equipment_0
 					parent_version = 2
 					modules = {
 						main_weapon_slot = regular_aa_weapon
@@ -402,7 +398,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_tank_equipment_0
 					parent_version = 3
 					modules = {
 						main_weapon_slot = improved_at_weapon
@@ -428,7 +424,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_tank_equipment_0
 					parent_version = 4
 					modules = {
 						main_weapon_slot = improved_at_weapon
@@ -454,7 +450,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_tank_equipment_0
 					parent_version = 5
 					modules = {
 						main_weapon_slot = improved_at_weapon
@@ -480,7 +476,7 @@ on_actions = {
 					}
 				}
 				create_equipment_variant = {
-					type = anti_air_equipment_1
+					type = anti_tank_equipment_0
 					parent_version = 6
 					modules = {
 						main_weapon_slot = advanced_at_weapon

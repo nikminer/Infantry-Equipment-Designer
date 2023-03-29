@@ -1,7 +1,6 @@
 equipments = {
 	carriage_equipment = {
 		year = 1934
-		active = no
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
 		type = armor
@@ -136,7 +135,6 @@ equipments = {
 		archetype = carriage_equipment
 		priority = 05
 		visual_level = 0
-		active = no
 		module_slots = inherit
 	}
 }

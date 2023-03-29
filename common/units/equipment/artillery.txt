@@ -5,18 +5,3 @@ duplicate_archetypes = {
 		type = { armor artillery }
 	}
 }
-
-equipments = {
-	artillery_equipment_1 = {
-		year = 1934
-
-		archetype = artillery_equipment
-		active = no
-		priority = 05
-		visual_level = 0
-		can_convert_from = { 
-			carriage_equipment_0
-		}	
-		
-	}
-}
