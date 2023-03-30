@@ -1,0 +1,99 @@
+equipment_modules = {
+	# Locomotive
+	 great_war_locomotive = {
+	 	category = locomotive_type
+ 
+	 	add_stats = {
+	 		maximum_speed = 40
+	 		build_cost_ic = 70
+	 	}		
+ 
+	 	build_cost_resources = {
+	 		steel = 1
+	 	}
+	 }
+ 
+	 interwar_locomotive = {
+	 	category = locomotive_type
+		parent = great_war_locomotive
+	 	add_stats = {
+	 		maximum_speed = 60
+	 		build_cost_ic = 50
+	 	}		
+ 
+	 	build_cost_resources = {
+	 		steel = 1
+	 	}
+	 }
+	 
+	# Vagon Type
+	 standart_vagon = {
+		category = vagon_type
+ 
+	 	add_stats = {
+	 		build_cost_ic = 2
+	 	}		
+	 }
+
+	 armored_vagon = {
+		category = vagon_type
+		
+	 	add_stats = {
+			armor_value = 50
+	 		build_cost_ic = 10
+	 	}	
+		
+		build_cost_resources = {
+			steel = 1
+		}
+	 }
+	
+	# AA Vagon Type
+	 anti_air1_vagon = {
+		category = aa_vagon_type
+ 
+	 	add_stats = {
+			air_attack = 4.5
+	 		build_cost_ic = 15
+	 	}	
+		 build_cost_resources = {
+			steel = 1
+		}
+	 }
+
+	 anti_air2_vagon = {
+		category = aa_vagon_type
+		parent = anti_air1_vagon
+	 	add_stats = {
+			air_attack = 7.5
+	 		build_cost_ic = 20
+	 	}	
+		 build_cost_resources = {
+			steel = 1
+		}
+	 }
+
+	 anti_air3_vagon = {
+		category = aa_vagon_type
+		parent = anti_air2_vagon
+	 	add_stats = {
+			air_attack = 10.5
+	 		build_cost_ic = 20
+	 	}	
+		 build_cost_resources = {
+			steel = 2
+		}
+	 }
+
+	 anti_air_radar_vagon = {
+		category = aa_vagon_type
+
+		multiply_stats ={
+			air_attack = 0.1
+		}
+
+	 	add_stats = {
+	 		build_cost_ic = 17
+	 	}	
+	 }
+}

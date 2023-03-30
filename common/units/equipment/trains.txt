@@ -10,64 +10,80 @@ equipments = {
 		picture = archetype_train
 		group_by = archetype
 		sprite = train
+
+		module_count_limit = {
+			category = vagon_type
+			count > 2
+		}	
+
+		module_count_limit = {
+			module = anti_air_radar_vagon
+			count < 2
+		}	
+
 		module_slots = {
-			carriage_slot = {
+			locomotive_slot = {
 				required = yes
 				allowed_module_categories = {
-					carriage_slot_type
+					locomotive_type
+				}
+			}
+			vagon1_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon3_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon4_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon5_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
 				}
 			}
 		}
-		interface_category = interface_category_land
-		maximum_speed = 40
-		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 
-		build_cost_ic = 70
-		resources = {
-			steel = 1
-		}
+		interface_category = interface_category_land
+		
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 	}
-	# regular trains
+
 	train_equipment_1 = {
 		year = 1910
 
 		archetype = train_equipment
 		priority = 10
 		module_slots = inherit
-		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
-		
-		build_cost_ic = 70
-		resources = {
-			steel = 1
-		}
-	}
-	# cheap trains
-	train_equipment_2 = {
-		year = 1940
 
-		archetype = train_equipment
-		parent = train_equipment_1
-		priority = 20
-
-		build_cost_ic = 50
-		resources = {
-			steel = 1
-		}
-	}
-	# armored trains
-	train_equipment_3 = {
-		year = 1936
-
-		archetype = train_equipment
-		parent = train_equipment_1
-		priority = 30
-
-		armor_value = 250 # HP = BASE_TRAIN_HP + armor_value
-		air_attack = 18
-
-		build_cost_ic = 105
-		resources = {
-			steel = 2
+		default_modules = {
+			locomotive_slot = great_war_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = standart_vagon
+			vagon3_slot = standart_vagon
+			vagon4_slot = standart_vagon
+			vagon5_slot = standart_vagon
 		}
 	}
 }
