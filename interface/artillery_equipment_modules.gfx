@@ -2,7 +2,7 @@ spriteTypes = {
 	# Main weapon types
 	 spriteType = {
 	 	name = "GFX_EMI_artilery_weapon_type"
-	 	textureFile = "gfx/interface/equipmentdesigner/train/modules/artillery_main_weapon_type.dds"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/artillery_main_weapon_type.dds"
 	 }
 	 spriteType = {
 		name = "GFX_EMI_gw_art_weapon"
