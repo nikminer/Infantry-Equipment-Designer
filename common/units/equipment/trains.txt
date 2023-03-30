@@ -5,21 +5,20 @@ equipments = {
 
 		is_archetype = yes
 		is_buildable = no
+		is_convertable = yes
+
 		active = no
 		type = { armor train } 
 		picture = archetype_train
 		group_by = archetype
 		sprite = train
 
+		# Min 2 not anti-air vagon
 		module_count_limit = {
-			category = vagon_type
-			count > 2
+			category = aa_vagon_type
+			count < 4
 		}	
 
-		module_count_limit = {
-			module = anti_air_radar_vagon
-			count < 2
-		}	
 
 		module_slots = {
 			locomotive_slot = {
@@ -35,13 +34,8 @@ equipments = {
 					aa_vagon_type
 				}
 			}
-			vagon2_slot = {
-				required = yes
-				allowed_module_categories = {
-					vagon_type
-					aa_vagon_type
-				}
-			}
+
+
 			vagon3_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -63,10 +57,17 @@ equipments = {
 					aa_vagon_type
 				}
 			}
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
 		}
 
 		interface_category = interface_category_land
-		
+		build_cost_ic = 5
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 	}
 

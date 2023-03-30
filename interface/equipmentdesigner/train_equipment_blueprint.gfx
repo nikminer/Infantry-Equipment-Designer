@@ -1,0 +1,56 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_TC_train_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint.dds"
+	}
+
+	# Categories
+	 spriteType = {
+	 	name = "GFX_TM_locomotive_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_locomotive.dds"
+	 }
+ 
+	 spriteType = {
+	 	name = "GFX_TM_vagon1_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon1.dds"
+	 }
+ 
+	 spriteType = {
+	 	name = "GFX_TM_vagon2_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon2.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_TM_vagon3_slot"
+		textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon3.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_TM_vagon4_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon4.dds"
+	 }
+	 spriteType = {
+		name = "GFX_TM_vagon5_slot"
+		textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon5.dds"
+	}
+
+	# Icons
+	 spriteType = {
+	 	name = "GFX_designer_prewar_weapon"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry0.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_regular_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry1.dds"
+	 }
+
+	 spriteType = {
+	 	name = "GFX_designer_improved_weapon"
+	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry2.dds"
+	 }
+	 spriteType = {
+		name = "GFX_designer_advanced_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry3.dds"
+	 }
+    
+} 
