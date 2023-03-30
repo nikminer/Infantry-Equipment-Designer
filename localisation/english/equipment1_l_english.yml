@@ -449,7 +449,7 @@
    POL_improved_weapon: "PM wz.38 Mors"
    POL_improved_weapon_short: "PM wz.38 Mors"
    POL_advanced_weapon: "PM wz.43 Błyskawica"
-   POL_advanced_weapon_short: "«Блыскавица» 1943 г."
+   POL_advanced_weapon_short: "wz. 43 Błyskawica"
 
    POL_infantry_weapons: "Karabin wz.98a"
    POL_infantry_weapons1: "Kbsp wz.38M"
@@ -515,9 +515,9 @@
    SWE_regular_weapon: "Ag m/42"
    SWE_regular_weapon_short: "Ag m/42"
    SWE_improved_weapon: "kpist m/37-39"
-   SWE_improved_weapon_short: "ПП m/37-39"
+   SWE_improved_weapon_short: "kpist m/37-39"
    SWE_advanced_weapon: "Kpist m/45"
-   SWE_advanced_weapon_short: "ПП m/45"
+   SWE_advanced_weapon_short: "Kpist m/45"
 
    SWE_infantry_weapons: "Mauser m/38"
    SWE_infantry_weapons1: "Ag m/42"
@@ -1055,8 +1055,8 @@
    ARG_advanced_infantry_weapons: "HALCÓN M-43"
   
   # LAT
-   LAT_prewar_weapon: "Винтовка Мосина M1891"
-   LAT_prewar_weapon_short: "Винтовка Мосина M1891"
+   LAT_prewar_weapon: "Mosin-Nagant M1891"
+   LAT_prewar_weapon_short: "Mosin-Nagant"
    LAT_regular_weapon: "Ross-Enfield M14"
    LAT_regular_weapon_short: "Ross-Enfield"
    LAT_improved_weapon: "Lewis M1915"
@@ -1064,7 +1064,7 @@
    LAT_advanced_weapon: "Aleksandra Brensona Patšautene"
    LAT_advanced_weapon_short: "A. B. Patšautene"
 
-   LAT_infantry_weapons: "Винтовка Мосина M1891"
+   LAT_infantry_weapons: "Mosin-Nagant M1891"
    LAT_infantry_weapons1: "Ross-Enfield M14"
    LAT_improved_infantry_weapons: "Lewis M1915"
    LAT_advanced_infantry_weapons: "Aleksandra Brensona Patšautene"
