@@ -1,45 +1,182 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_EMI_locomotive_type"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/locomotive.dds"
-	}
-	spriteType = {
-		name = "GFX_EMI_great_war_locomotive"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/gw_locomotive.dds"
-	}
-	spriteType = {
-		name = "GFX_EMI_wartime_locomotive"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/wartime_locomotive.dds"
-	}
+	# Main weapon types
+	 spriteType = {
+	 	name = "GFX_EMI_artilery_weapon_type"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/modules/artillery_main_weapon_type.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_gw_art_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/gw_art_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_regular_art_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/regular_art_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_improved_art_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/improved_art_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_advanced_art_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/advanced_art_weapon.dds"
+	 }
 
-	spriteType = {
-		name = "GFX_EMI_vagon_type"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/standart_vagon.dds"
+	 spriteType = {
+		name = "GFX_EMI_artilery_rocket_weapon_type"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/rocket_main_weapon_type.dds"
 	}
-	spriteType = {
-		name = "GFX_EMI_standart_vagon"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/standart_vagon.dds"
-	}
-	spriteType = {
-		name = "GFX_EMI_armored_vagon"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/armored_vagon.dds"
-	}
+	 spriteType = {
+		name = "GFX_EMI_basic_rocket_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/basic_rocket_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_improved_rocket_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/improved_rocket_weapon.dds"
+	 }
 
 
-	spriteType = {
-		name = "GFX_EMI_aa_vagon_type"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa_vagon.dds"
-	}
-	spriteType = {
-		name = "GFX_EMI_anti_air1_vagon"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa1_vagon.dds"
-	}
-	spriteType = {
-		name = "GFX_EMI_anti_air2_vagon"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa2_vagon.dds"
-	}
-	spriteType = {
-		name = "GFX_EMI_anti_air3_vagon"
-		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa3_vagon.dds"
-	}
+	 spriteType = {
+		name = "GFX_EMI_aa_weapon_type"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/anti_air_main_weapon_type.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_regular_aa_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/regular_aa_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_improved_aa_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/improved_aa_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_advanced_aa_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/advanced_aa_weapon.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_EMI_at_weapon_type"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/anti_tank_main_weapon_type.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_regular_at_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/regular_at_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_improved_at_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/improved_at_weapon.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_advanced_at_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/advanced_at_weapon.dds"
+	 }
+
+
+	# Armor
+	 spriteType = {
+	 	name = "GFX_EMI_fullArmor"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/fullArmor.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_fatArmor"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/fatArmor.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_lowerArmor"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/lowerArmor.dds"
+	 }
+
+	# Carriage
+	 spriteType = {
+	 	name = "GFX_EMI_standart_carriage"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/standart_carriage.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_hardness_carriage"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/hardness_carriage.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_ligher_carriage"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/ligher_carriage.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_wheels_carriage"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/wheels_carriage.dds"
+	 }
+
+	# Special Modules
+	 spriteType = {
+	 	name = "GFX_EMI_carriage_special_modules"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/carriage_special_modules.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_muzzle_break"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/muzzle_break.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_longer_barrels"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/longer_barrels.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_antitank_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/antitank_special_modules.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_squeezebore_at_adaptor"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/squeezebore_at_adaptor.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_blasting_shells"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/blasting_shells.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_two_stage_shells"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/two_stage_shells.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_EMI_artillery_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/artillery_special_modules.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_smoke_screen"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/smoke_screen.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_EMI_gas_screen"
+	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/gas_screen.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_hydraulic_recoil"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/hydraulic_recoil.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_EMI_rocket_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/rocket_special_modules.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_heavy_rockets"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/heavy_rockets.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_multiple_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/multiple_launcher.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_EMI_antiair_special_modules"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/antiair_special_modules.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_fast_reloading_aa"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/fast_reloading_aa.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_radar_aa"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/radar_aa.dds"
+	 }
+	 spriteType = {
+		name = "GFX_EMI_computer_aa"
+		textureFile = "gfx/interface/equipmentdesigner/arteliry/modules/computer_aa.dds"
+	 }
+
 }

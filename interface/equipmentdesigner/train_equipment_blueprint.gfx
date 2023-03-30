@@ -35,22 +35,96 @@ spriteTypes = {
 
 	# Icons
 	 spriteType = {
-	 	name = "GFX_designer_prewar_weapon"
-	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry0.dds"
+	 	name = "GFX_designer_basic_train_medium"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/designer/train_equipment_1.dds"
 	 }
 
 	 spriteType = {
-		name = "GFX_designer_regular_weapon"
-		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry1.dds"
+		name = "GFX_designer_wartime_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/train_equipment_2.dds"
 	 }
 
 	 spriteType = {
-	 	name = "GFX_designer_improved_weapon"
-	 	textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry2.dds"
+	 	name = "GFX_designer_armored_train_medium"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/designer/train_equipment_3.dds"
 	 }
+	# ENG
 	 spriteType = {
-		name = "GFX_designer_advanced_weapon"
-		textureFile = "gfx/interface/equipmentdesigner/infantry/designer/infantry3.dds"
+	 	name = "GFX_designer_ENG_basic_train_medium"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/designer/ENG_train_equipment_1.dds"
 	 }
-    
+ 
+	 spriteType = {
+	    name = "GFX_designer_ENG_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/ENG_train_equipment_2.dds"
+	 }
+ 	# FRA
+	 spriteType = {
+		name = "GFX_designer_FRA_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/FRA_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_FRA_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/FRA_train_equipment_2.dds"
+	 }
+	# GER
+	 spriteType = {
+		name = "GFX_designer_GER_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/GER_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_GER_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/GER_train_equipment_2.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_GER_armored_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/GER_train_equipment_3.dds"
+	}
+
+	# ITA
+	 spriteType = {
+		name = "GFX_designer_ITA_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/ITA_train_equipment_1.dds"
+	 }
+
+	# JAP
+	 spriteType = {
+		name = "GFX_designer_JAP_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/JAP_train_equipment_1.dds"
+	 }
+
+	 spriteType = {
+	    name = "GFX_designer_JAP_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/JAP_train_equipment_2.dds"
+	 }
+
+	# SOV
+	 spriteType = {
+		name = "GFX_designer_SOV_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_SOV_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_2.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_SOV_armored_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_3.dds"
+	 }
+
+	# USA
+	 spriteType = {
+		name = "GFX_designer_USA_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_USA_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_2.dds"
+	 }
 } 
