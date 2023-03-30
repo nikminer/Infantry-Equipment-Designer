@@ -1,0 +1,90 @@
+equipments = {
+	#archetype
+	train_equipment = {
+		year = 1910
+
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+
+		active = no
+		type = { armor train } 
+		picture = archetype_train
+		group_by = archetype
+		sprite = train
+
+		# Min 2 not anti-air vagon
+		module_count_limit = {
+			category = aa_vagon_type
+			count < 4
+		}	
+
+
+		module_slots = {
+			locomotive_slot = {
+				required = yes
+				allowed_module_categories = {
+					locomotive_type
+				}
+			}
+			vagon1_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+
+			vagon3_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon4_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon5_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+		}
+
+		interface_category = interface_category_land
+		build_cost_ic = 5
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+	}
+
+	train_equipment_1 = {
+		year = 1910
+
+		archetype = train_equipment
+		priority = 10
+		module_slots = inherit
+
+		default_modules = {
+			locomotive_slot = great_war_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = standart_vagon
+			vagon3_slot = standart_vagon
+			vagon4_slot = standart_vagon
+			vagon5_slot = standart_vagon
+		}
+	}
+}

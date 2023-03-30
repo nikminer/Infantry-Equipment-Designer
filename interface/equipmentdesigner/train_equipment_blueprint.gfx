@@ -1,0 +1,130 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_TC_train_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint.dds"
+	}
+
+	# Categories
+	 spriteType = {
+	 	name = "GFX_TM_locomotive_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_locomotive.dds"
+	 }
+ 
+	 spriteType = {
+	 	name = "GFX_TM_vagon1_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon1.dds"
+	 }
+ 
+	 spriteType = {
+	 	name = "GFX_TM_vagon2_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon2.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_TM_vagon3_slot"
+		textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon3.dds"
+	 }
+	 spriteType = {
+	 	name = "GFX_TM_vagon4_slot"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon4.dds"
+	 }
+	 spriteType = {
+		name = "GFX_TM_vagon5_slot"
+		textureFile = "gfx/interface/equipmentdesigner/train/generic_train_blueprint_vagon5.dds"
+	}
+
+	# Icons
+	 spriteType = {
+	 	name = "GFX_designer_basic_train_medium"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/designer/train_equipment_1.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_wartime_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/train_equipment_2.dds"
+	 }
+
+	 spriteType = {
+	 	name = "GFX_designer_armored_train_medium"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/designer/train_equipment_3.dds"
+	 }
+	# ENG
+	 spriteType = {
+	 	name = "GFX_designer_ENG_basic_train_medium"
+	 	textureFile = "gfx/interface/equipmentdesigner/train/designer/ENG_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_ENG_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/ENG_train_equipment_2.dds"
+	 }
+ 	# FRA
+	 spriteType = {
+		name = "GFX_designer_FRA_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/FRA_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_FRA_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/FRA_train_equipment_2.dds"
+	 }
+	# GER
+	 spriteType = {
+		name = "GFX_designer_GER_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/GER_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_GER_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/GER_train_equipment_2.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_GER_armored_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/GER_train_equipment_3.dds"
+	}
+
+	# ITA
+	 spriteType = {
+		name = "GFX_designer_ITA_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/ITA_train_equipment_1.dds"
+	 }
+
+	# JAP
+	 spriteType = {
+		name = "GFX_designer_JAP_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/JAP_train_equipment_1.dds"
+	 }
+
+	 spriteType = {
+	    name = "GFX_designer_JAP_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/JAP_train_equipment_2.dds"
+	 }
+
+	# SOV
+	 spriteType = {
+		name = "GFX_designer_SOV_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_SOV_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_2.dds"
+	 }
+
+	 spriteType = {
+		name = "GFX_designer_SOV_armored_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_3.dds"
+	 }
+
+	# USA
+	 spriteType = {
+		name = "GFX_designer_USA_basic_train_medium"
+		textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_1.dds"
+	 }
+ 
+	 spriteType = {
+	    name = "GFX_designer_USA_wartime_train_medium"
+	    textureFile = "gfx/interface/equipmentdesigner/train/designer/SOV_train_equipment_2.dds"
+	 }
+} 

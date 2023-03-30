@@ -3447,7 +3447,6 @@
  tank_nsb_armor_upgrade:0 "$tank_armor_upgrade$"
  train_equipment:0 "Поезд"
  train_equipment_desc:0 "Поезда перевозят припасы из столицы снабжения в центры снабжения, соединенные железной дорогой."
- train_equipment_1:0 "Гражданский поезд"
  train_equipment_1_desc:0 "Этот паровоз, реквизированный армией с регулярных гражданских грузовых перевозок, хорошо походит для перемещения большого количества припасов на большие расстояния, но гражданская конструкция делает его уязвимым."
  train_equipment_2:0 "Военный упрощенный поезд"
  train_equipment_2_desc:0 "Упрощенный проект, в котором ради удешевления производства опущены многие детали, присущие обычным товарным поездам. Он точно так же уязвим, как и обычный поезд, но его проще заменить."
@@ -3462,29 +3461,6 @@
  floating_harbor_equipment_desc:1 "Набор понтонов и готовых бетонных построек, которые можно перемещать по воде и собирать за считаные часы, создавая укрытые платформы для выгрузки припасов."
  floating_harbor_equipment_1:0 "Плавучая гавань"
  floating_harbor_equipment_1_desc:1 "Набор понтонов и готовых бетонных построек, которые можно перемещать по воде и собирать за считаные часы, создавая укрытые платформы для выгрузки припасов."
-
- GER_train_equipment_1:1 "Класс 18.4-5"
- GER_train_equipment_2:0 "Тип DRB 52"
- GER_train_equipment_3:0 "Тип BR57"
-
- SOV_train_equipment_1:0 "Тип FD"
- SOV_train_equipment_2:0 "Тип «L»"
- SOV_train_equipment_3:0 "Тип PR-43"
-
- USA_train_equipment_1:0 "Тип «Пенсильвания» I1s"
- USA_train_equipment_2:0 "Тип USATC S160"
-
- JAP_train_equipment_1:0 "Тип JNR D50"
- JAP_train_equipment_2:0 "Тип JNR D52"
- JAP_train_equipment_3:0 "Тип 94"
-
- ENG_train_equipment_1:1 "LMS класса 8F"
- ENG_train_equipment_2:0 "WD Austerity 2-8-0"
-
- FRA_train_equipment_1:0 "141 B/C SNCF"
- FRA_train_equipment_2:0 "141 P SNCF"
-
- ITA_train_equipment_1:0 "FS Class 685"
 
  GER_railway_gun_equipment_1:0 "«Дора»"
  ENG_railway_gun_equipment_1:0 "9,2-дюйм. BL Mk. XIII"

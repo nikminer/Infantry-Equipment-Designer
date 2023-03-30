@@ -1,0 +1,147 @@
+default = {
+	train_equipment = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_designer_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_designer_wartime_train_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_designer_armored_train_medium
+			}
+		}
+	}
+}
+
+GER = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_GER_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_GER_wartime_train_medium
+			}
+		}
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_GER_armored_train_medium
+			}
+		}
+	}
+}
+
+SOV = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_SOV_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_SOV_wartime_train_medium
+			}
+		}
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_designer_SOV_armored_train_medium
+			}
+		}
+	}
+}
+
+ENG = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_ENG_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_ENG_wartime_train_medium
+			}
+		}
+	}
+}
+
+JAP = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_JAP_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_JAP_wartime_train_medium
+			}
+		}
+	}
+}
+
+USA = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_USA_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_USA_wartime_train_medium
+			}
+		}
+	}
+}
+
+ITA = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_ITA_basic_train_medium
+			}
+		}
+	}
+}
+
+FRA = {
+	train_equipment = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_designer_FRA_basic_train_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_designer_FRA_wartime_train_medium
+			}
+		}
+	}
+}

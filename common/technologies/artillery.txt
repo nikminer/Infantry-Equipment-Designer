@@ -566,6 +566,7 @@ technologies = {
 			tank_anti_air_cannon
 			tank_heavy_cannon
 			wheels_carriage
+			anti_air1_vagon
 		}
 
 		enable_building = {
@@ -678,6 +679,7 @@ technologies = {
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
 			improved_aa_weapon
+			anti_air2_vagon
 		}
 
 		path = {
@@ -816,6 +818,7 @@ technologies = {
 			tank_anti_air_cannon_3
 			auto_loader
 			advanced_aa_weapon
+			anti_air3_vagon
 		}
 
 		research_cost = 1

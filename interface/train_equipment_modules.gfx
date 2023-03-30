@@ -1,0 +1,45 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_locomotive_type"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/locomotive.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_great_war_locomotive"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/gw_locomotive.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_wartime_locomotive"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/wartime_locomotive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_vagon_type"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/standart_vagon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_standart_vagon"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/standart_vagon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_armored_vagon"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/armored_vagon.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_aa_vagon_type"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa_vagon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_anti_air1_vagon"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa1_vagon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_anti_air2_vagon"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa2_vagon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_anti_air3_vagon"
+		textureFile = "gfx/interface/equipmentdesigner/train/modules/aa3_vagon.dds"
+	}
+}

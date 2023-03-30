@@ -3344,7 +3344,6 @@
  tank_nsb_armor_upgrade:0 "$tank_armor_upgrade$"
  train_equipment:0 "Train"
  train_equipment_desc:0 "Trains transport supplies from the Supply Capital to Supply Hubs connected by rail."
- train_equipment_1:0 "Civilian Train"
  train_equipment_1_desc:0 "Taken over by the military from regular civilian freight duty, this train engine is well-suited to move a large amount of supplies over long distances. However, its civilian construction makes it vulnerable."
  train_equipment_2:0 "War Austerity Train"
  train_equipment_2_desc:0 "A simplified design that ommits many features commonly found on regular freight trains for the sake of cheaper production. It is still every bit as vulnerable as a regular train, but can more easily be replaced."
@@ -3359,29 +3358,6 @@
  floating_harbor_equipment_desc:1 "A series of pontoons and pre-fabricated concrete structures that can be moved across water and assembled within hours to create a sheltered landing space to unload supplies."
  floating_harbor_equipment_1:0 "Floating Harbor"
  floating_harbor_equipment_1_desc:1 "A series of pontoons and pre-fabricated concrete structures that can be moved across water and assembled within hours to create a sheltered landing space to unload supplies."
-
- GER_train_equipment_1:1 "Class 18.4-5"
- GER_train_equipment_2:0 "DRB 52 Class"
- GER_train_equipment_3:0 "BR57 Class"
-
- SOV_train_equipment_1:0 "FD Class"
- SOV_train_equipment_2:0 "L Class"
- SOV_train_equipment_3:0 "PR-43 Class"
-
- USA_train_equipment_1:0 "Pennsylvania I1s Class"
- USA_train_equipment_2:0 "USATC S160 Class"
-
- JAP_train_equipment_1:0 "JNR D50 Class"
- JAP_train_equipment_2:0 "JNR D52 Class"
- JAP_train_equipment_3:0 "Type 94"
-
- ENG_train_equipment_1:1 "LMS Class 8F"
- ENG_train_equipment_2:0 "WD Austerity 2-8-0"
-
- FRA_train_equipment_1:0 "141 B/C SNCF"
- FRA_train_equipment_2:0 "141 P SNCF"
-
- ITA_train_equipment_1:0 "FS Class 685"
 
  GER_railway_gun_equipment_1:0 "Dora"
  ENG_railway_gun_equipment_1:0 "BL 9.2 Inch Mk. XIII"

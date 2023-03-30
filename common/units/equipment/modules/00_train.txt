@@ -1,0 +1,115 @@
+equipment_modules = {
+	# Locomotive
+	 great_war_locomotive = {
+	 	category = locomotive_type
+ 
+	 	add_stats = {
+	 		maximum_speed = 40
+	 		build_cost_ic = 55
+	 	}		
+ 
+	 	build_cost_resources = {
+	 		steel = 1
+	 	}
+	 }
+ 
+	 wartime_locomotive = {
+	 	category = locomotive_type
+		parent = great_war_locomotive
+	 	add_stats = {
+	 		maximum_speed = 60
+	 		build_cost_ic = 35
+	 	}		
+
+ 		can_convert_from = {
+			module = great_war_locomotive
+			convert_cost_ic = -10
+		}
+
+	 	build_cost_resources = {
+	 		steel = 1
+	 	}
+	 }
+	 
+	# Vagon Type
+	 standart_vagon = {
+		category = vagon_type
+ 
+	 	add_stats = {
+	 		build_cost_ic = 2
+	 	}		
+	 }
+
+	 armored_vagon = {
+		category = vagon_type
+
+		can_convert_from = {
+			module = standart_vagon
+			convert_cost_ic = 10
+		}
+
+	 	add_stats = {
+			armor_value = 50
+	 		build_cost_ic = 10
+			maximum_speed = -5
+	 	}	
+		
+		build_cost_resources = {
+			steel = 1
+		}
+	 }
+	
+	# AA Vagon Type
+	 anti_air1_vagon = {
+		category = aa_vagon_type
+ 
+		can_convert_from = {
+			module = standart_vagon
+			convert_cost_ic = 5
+		}
+		
+	 	add_stats = {
+			air_attack = 4.5
+	 		build_cost_ic = 15
+			maximum_speed = -2
+	 	}	
+	 }
+
+	 anti_air2_vagon = {
+		category = aa_vagon_type
+		parent = anti_air1_vagon
+	 	add_stats = {
+			air_attack = 7.5
+	 		build_cost_ic = 20
+			maximum_speed = -3
+	 	}	
+		
+		build_cost_resources = {
+			steel = 1
+		}
+
+		can_convert_from = {
+			module = anti_air1_vagon
+			convert_cost_ic = 3
+		}
+	 }
+
+	 anti_air3_vagon = {
+		category = aa_vagon_type
+		parent = anti_air2_vagon
+	 	add_stats = {
+			air_attack = 10.5
+	 		build_cost_ic = 25
+			maximum_speed = -4
+	 	}	
+
+		can_convert_from = {
+			module = anti_air2_vagon
+			convert_cost_ic = 3
+		}
+		
+		build_cost_resources = {
+			steel = 1
+		}
+	 }
+}
