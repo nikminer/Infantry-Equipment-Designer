@@ -1,0 +1,21 @@
+equipment_modules = {
+
+	civilian_body = {
+		category = mechanize_body_type
+		
+		xp_cost = 0
+
+		build_cost_resources = {
+		}
+	}
+
+	armored_body = {
+		category = mechanize_body_type
+		
+		xp_cost = 0
+
+		build_cost_resources = {
+		}
+	}
+
+}
