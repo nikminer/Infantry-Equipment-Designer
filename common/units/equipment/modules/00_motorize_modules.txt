@@ -18,7 +18,7 @@ equipment_modules = {
 		}
 	}
 
-	armored_body = {
+	harder_armored_body_1 = {
 		category = mechanize_body_type
 		
 		xp_cost = 0
@@ -27,7 +27,7 @@ equipment_modules = {
 		}
 	}
 
-	harder_armored_body = {
+	harder_armored_body_2 = {
 		category = mechanize_body_type
 		
 		xp_cost = 0

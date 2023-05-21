@@ -1,0 +1,120 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_car_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_main_armament.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_machine_gun"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/tank_module_heavy_machine_gun.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_flamethrower"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_flamethrower.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_auto_cannon"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/tank_module_auto_cannon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_auto_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/tank_module_auto_cannon_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_car_turret_type"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_main_armament.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_one_man_tank_turret"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/tank_module_light_one_man_turret.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_fixed_tank_turret"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/tank_module_medium_fixed_superstructure.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_car_engine_type"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_engine_type.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_gasoline_engine"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_gasoline_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_diesel_engine"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_diesel_engine.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_car_suspension_type"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_4x4_suspension.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_4x4_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_4x4_suspension.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_6x6_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_6x6_suspension.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_8x8_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_8x8_suspension.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_car_hull_type"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_hull_type.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_flat_armor"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_flat_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_semiflat_armor"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_semiflat_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_sloped_armor"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_sloped_armor.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_car_special_module"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_vision_ports.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_vision_ports"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_vision_ports.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_stabilizer"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_stabilizer.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_smoke_launchers"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_smoke_launchers.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_extra_ammo_storage"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_extra_ammo_storage.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_auto_loader"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_auto_loader.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_wet_ammo_storage"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_wet_ammo_storage.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_car_internal_machine_gun"
+		textureFile = "gfx/interface/equipmentdesigner/armored_car/modules/car_internal_machine_gun.dds"
+	}
+}

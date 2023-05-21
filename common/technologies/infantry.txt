@@ -1505,7 +1505,16 @@ technologies = {
 		enable_subunits = {
 			armored_car
 		}
-
+		enable_equipment_modules = {
+			car_machine_gun
+			car_flamethrower
+			car_one_man_tank_turret
+			car_4x4_suspension
+			car_gasoline_engine
+			car_diesel_engine
+			car_flat_armor
+			car_vision_ports
+		}
 		enable_equipments = {
 			gw_armored_car_equipment
 		}
@@ -1553,13 +1562,22 @@ technologies = {
 	}
 
 	armored_car2 = {
-
-		enable_equipments = {
-			armored_car_equipment_1
+		enable_equipment_modules = {
+			car_auto_cannon
+			car_6x6_suspension
+			car_semiflat_armor
+			car_stabilizer
+			car_smoke_launchers
+			car_internal_machine_gun
 		}
-		
+
 		path = {
 			leads_to_tech = armored_car3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = armored_car_at_upgrade
 			research_cost_coeff = 1
 		}
 
@@ -1602,8 +1620,13 @@ technologies = {
 
 	armored_car3 = {
 
-		enable_equipments = {
-			armored_car_equipment_2
+		enable_equipment_modules = {
+			car_auto_cannon_2
+			car_8x8_suspension
+			car_sloped_armor
+			car_wide
+			car_auto_loader
+			car_extra_ammo_storage
 		}
 
 		research_cost = 2
@@ -1619,9 +1642,6 @@ technologies = {
 			cat_armored_cars
 		}
 		
-		sub_technologies = {
-			armored_car_at_upgrade
-		}
 
 		ai_will_do = {
 			factor = 1
@@ -1649,14 +1669,20 @@ technologies = {
 
 	armored_car_at_upgrade = {
 
-		enable_equipments = {
-			armored_car_at_equipment
+		enable_equipment_modules = {
+			car_fixed_tank_turret
+			car_wet_ammo_storage
 		}
 
 		research_cost = 1
 		start_year = 1942
 		sub_tech_index = 1
-		
+
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1942 }
+		}
+
 		categories = {
 			motorized_equipment
 			armor

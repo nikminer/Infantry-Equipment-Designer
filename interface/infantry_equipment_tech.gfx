@@ -13,4 +13,39 @@ spriteTypes = {
 		name = "GFX_PRC_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/prc_advanced_infantry_weapons.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/armored_car_at_upgrade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/eng_armored_car_at_upgrade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/fra_armored_car_at_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/ger_armored_car_at_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/ita_armored_car_at_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/jap_armored_car_at_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/sov_armored_car_at_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/usa_armored_car_at_upgrade.dds"
+	}
 }

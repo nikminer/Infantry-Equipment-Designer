@@ -1,169 +1,8 @@
 equipment_modules = {
-###Engine Types
-	car_gasoline_engine = {
-		abbreviation = "cgas"
-		category = car_engine_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			build_cost_ic = 1
-			maximum_speed = 1
-		}
-		multiply_stats = {
-			maximum_speed = 0.15
-		}
-
-	}
-	car_diesel_engine = {
-		abbreviation = "cdie"
-		category = car_engine_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			build_cost_ic = 1
-			reliability = 0.2
-		}
-		multiply_stats = {  }
-	}
-
-###Armor Types
-	car_riveted_armor = {
-		abbreviation = "fuck you"
-		category = car_armor_type
-		sfx = sfx_ui_sd_module_sonar
-		xp_cost = 8
-		multiply_stats = {
-			build_cost_ic = -0.2
-			armor_value = -0.3
-		}
-	}
-	car_welded_armor = {
-		abbreviation = "xxz"
-		category = car_armor_type
-		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			defense = 1
-			breakthrough = 1
-		}
-		xp_cost = 8
-	}
-
-###Hull Mod
-	car_flat_armor = {     
-		abbreviation = "cflat"
-		category = car_hull_mod
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		add_stats = {
-			defense = 1
-			breakthrough = 1
-		}
-	}
-	car_semiflat_armor = {      
-		abbreviation = "csfla"
-		category = car_hull_mod
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		add_stats = {
-			build_cost_ic = 0.25
-			defense = 1
-			armor_value = 1.5
-		}
-	}
-	car_sloped_armor = {       
-		abbreviation = "cslop"
-		category = car_hull_mod
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		multiply_stats = {
-			armor_value = 0.15
-			build_cost_ic = 0.075
-		}
-	}
-
-###Suspension Types
-	car_4x4_suspension = {
-		abbreviation = "4x4"
-		category = car_suspension_type
-		sfx = sfx_ui_sd_module_sonar
-		add_stats = {
-			build_cost_ic = 0.75
-			hardness = -0.2
-		}
-		multiply_stats =  {
-			#maximum_speed = 0.2
-			build_cost_ic = -0.05
-			maximum_speed = 0.2
-			armor_value = -0.1
-		}
-	}
-	car_6x6_suspension = {
-		abbreviation = "6x6"
-		category = car_suspension_type
-		sfx = sfx_ui_sd_module_sonar
-		add_stats = {
-			build_cost_ic = 1.25
-			defense = 2
-			breakthrough = 2
-			suppression = 0.15
-		}
-		multiply_stats =  {
-			soft_attack = 0.1
-			reliability = 0.05
-			maximum_speed = 0.1
-		}
-	}
-	car_8x8_suspension = {
-		abbreviation = "8x8"
-		category = car_suspension_type
-		sfx = sfx_ui_sd_module_sonar
-		add_stats = {
-			build_cost_ic = 2
-			defense = 1
-			breakthrough = 1
-			reliability = 0.1
-			hardness = 0.15
-			armor_value = 5
-		}
-		multiply_stats =  {
-			hard_attack = 0.15
-			ap_attack = 0.15
-		}
-		build_cost_resources = {
-			rubber = 1
-		}
-	}
-###Turret Types - light fully traversable turrets (How do you spell traversable?)
-	car_one_man_tank_turret = {
-		abbreviation = "cl1m"
-		category = car_light_turret_type
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			build_cost_ic = 0.25
-			breakthrough = 4
-		}
-		xp_cost = 2
-	}
-	car_nft_two_man_tank_turret = {
-		abbreviation = "nft2"
-		category = car_light_turret_type
-		sfx = sfx_ui_sd_module_turret
-		allowed_module_categories = {
-			main_armament_slot = {
-				car_medium_main_armament
-			}
-		}
-		xp_cost = 2
-		add_stats = {
-			build_cost_ic = 0.5
-			breakthrough = 5
-		}
-	}
-###Weapons
+### Main Armament
 	car_machine_gun = {
 		abbreviation = "mg"
-		category = car_small_main_armament
+		category = car_main_armament
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			soft_attack = 6
@@ -171,62 +10,188 @@ equipment_modules = {
 			ap_attack = 6
 			build_cost_ic = 0.5
 		}
-		xp_cost = 1
+		xp_cost = 2
 	}
 	car_flamethrower = {
 		abbreviation = "flt"
-		category = car_small_main_armament
+		category = car_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = flame
 		add_stats = {
 			soft_attack = 8
 			build_cost_ic = 0.5
 			reliability = -0.05
+			suppression = 0.15
 		}
-		xp_cost = 1
+		xp_cost = 2
 	}
 	car_auto_cannon = {
 		abbreviation = "cac1"
-		category = car_small_main_armament
+		category = car_main_armament
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			soft_attack = 11
-			hard_attack = 3
-			ap_attack = 14
+			soft_attack = 13
+			hard_attack = 4
+			ap_attack = 8
+			air_attack = 2
 			build_cost_ic = 1.25
 			reliability = -0.1
 		}
-		xp_cost = 1
+		xp_cost = 2
 	}
 	car_auto_cannon_2 = {
 		abbreviation = "cac2"
-		category = car_small_main_armament
+		category = car_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = car_auto_cannon
 		add_stats = {
 			soft_attack = 16
-			hard_attack = 4.5
-			ap_attack = 20
+			hard_attack = 8
+			ap_attack = 36
+			air_attack = 5
 			build_cost_ic = 1.5
 			reliability = -0.1
 		}
-		xp_cost = 1
+		xp_cost = 2
+		build_cost_resources = {
+			tungsten = 1
+		}
 	}
-	
-	car_medium_cannon = {
-		abbreviation = "cmc1"
-		category = car_medium_main_armament
+
+###Suspension Types	
+	car_4x4_suspension = {
+		abbreviation = "4x4"
+		category = car_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic 	= 0.75
+			hardness 		= -0.2
+			maximum_speed 	= 9
+			reliability 	= 0.1
+		}
+	}
+	car_6x6_suspension = {
+		abbreviation = "6x6"
+		category = car_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			defense 			= 1
+			armor_value 		= 4
+			breakthrough 		= 8
+			build_cost_ic 		= 1.25
+			hardness 			= 0.05
+			maximum_speed 		= 12
+			fuel_consumption 	= 0.5
+		}
+	}
+	car_8x8_suspension = {
+		abbreviation = "8x8"
+		category = car_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			defense 			= 2
+			armor_value 		= 7
+			breakthrough 		= 12
+			build_cost_ic 		= 2
+			hardness 			= 0.1
+			fuel_consumption 	= 1
+			maximum_speed		= 15
+			reliability 		= -0.1
+		}
+		build_cost_resources = {
+			rubber = 1
+		}
+	}
+
+###Engine Types
+	car_gasoline_engine = {
+		category = car_engine_type
+		sfx = sfx_ui_sd_module_engine
+		add_stats = {
+			build_cost_ic = 1
+		}
+		multiply_stats = {
+			maximum_speed = 0.15
+		}
+	}
+	car_diesel_engine = {
+		category = car_engine_type
+		sfx = sfx_ui_sd_module_engine
+		add_stats = {
+			build_cost_ic = 1
+			reliability = 0.2
+		}
+	}
+
+###Turret Types
+	car_one_man_tank_turret = {
+		category = car_turret_type
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			soft_attack = 12
-			hard_attack = 9
-			ap_attack = 35
-			build_cost_ic = 2.25
-			maximum_speed = -1.5
-			reliability = -0.2
+			build_cost_ic 	= 0.5
+			breakthrough 	= 4
 		}
-		xp_cost = 1
+		allowed_module_categories = {
+			main_weapon_slot = {
+				car_main_armament
+			}
+		}
+		forbid_equipment_type_exact_match_for_category = {
+			tank_medium_main_armament = armor
+		}
+		xp_cost = 2
 	}
+	car_fixed_tank_turret = {
+		category = car_turret_type
+		sfx = sfx_ui_sd_module_turret
+		allowed_module_categories = {
+			main_weapon_slot = {
+				car_main_armament
+				tank_medium_main_armament
+			}
+		}
+		xp_cost = 2
+		add_stats = {
+			defense 		= 2
+			build_cost_ic 	= 0.25
+			breakthrough 	= 3
+			armor_value 	= 2
+		}
+	}
+
+###Hull Mod
+	car_flat_armor = {     
+		category = car_hull_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		add_stats = {
+			build_cost_ic 	= 0.25
+			defense 		= 1
+			breakthrough 	= 2
+			armor_value  	= 1
+		}
+	}
+	car_semiflat_armor = {      
+		category = car_hull_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		add_stats = {
+			build_cost_ic 	= 0.5
+			defense 		= 1
+			breakthrough	= 2
+			armor_value 	= 3
+		}
+	}
+	car_sloped_armor = {       
+		category = car_hull_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		multiply_stats = {
+			breakthrough	= 3
+			armor_value 	= 5
+			build_cost_ic 	= 0.75
+		}
+	}
+
 ###Special Modules
 	car_vision_ports = {
 		abbreviation = "cvp"
@@ -272,16 +237,6 @@ equipment_modules = {
 		}
 		xp_cost = 1
 	}
-	car_wide = {
-		abbreviation = "cost"
-		category = car_special_module
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			reliability = 0.1
-			build_cost_ic = 1
-		}
-		xp_cost = 1
-	}
 	car_auto_loader = {
 		abbreviation = "auto"
 		category = car_special_module
@@ -293,26 +248,19 @@ equipment_modules = {
 		}
 		xp_cost = 1
 	}
-	car_easy_maintenance = {
-		abbreviation = "ceasy"
+	car_wet_ammo_storage = {
+		abbreviation = "cwet"
 		category = car_special_module
 		sfx = sfx_ui_sd_module_turret
+
 		add_stats = {
 			reliability = 0.1
-		}
-		xp_cost = 10
-	}
-	car_additional_machine_guns = {
-		abbreviation = "cmg"
-		category = car_special_module
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			air_attack = 0.5
-			build_cost_ic = 0.25
-			reliability = -0.02
+			build_cost_ic = 0.5
 		}
 		xp_cost = 1
+		multiply_stats = {
+			
+		}
 	}
 	car_internal_machine_gun = {
 		abbreviation = "mgi"

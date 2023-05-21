@@ -1,0 +1,136 @@
+# All equipment based on light tank chassis
+
+equipments = {
+
+	armored_car_equipment = {
+		year = 1939
+	
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_armored_car_equipment			
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		type = armor
+
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			module = car_wet_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = car_auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = car_vision_ports
+			count < 2
+		}
+
+		module_slots = {
+			car_turret_slot = {
+				required = yes
+				allowed_module_categories = {
+					car_turret_type
+				}
+			}
+			main_weapon_slot = {
+				required = yes
+				allowed_module_categories = {
+					car_main_armament
+					tank_medium_main_armament
+				}
+			}		
+			car_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					car_engine_type
+				}
+			}
+			suspension_slot = {
+				required = yes
+				allowed_module_categories = {
+					car_suspension_type
+				}
+			}
+			car_hull_slot = {
+				required = yes
+				allowed_module_categories = {
+					car_hull_type
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					car_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					car_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					car_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					car_special_module
+					tank_radio_module
+				}
+			}
+		}
+
+		default_modules = {
+			main_weapon_slot 	= car_machine_gun
+			car_turret_slot 	= car_one_man_tank_turret
+			suspension_slot 	= car_4x4_suspension
+			car_engine_slot 	= car_gasoline_engine
+			car_hull_slot 		= car_flat_armor
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+	}
+
+	# WW1 Armored Car
+	gw_armored_car_equipment = {
+		year = 1914
+	
+		archetype = armored_car_equipment
+		priority = 5
+		visual_level = 0
+		
+		module_slots = inherit
+
+		#Misc Abilities
+		reliability 		= 0.8
+		build_cost_ic 		= 2.5
+		fuel_consumption 	= 0.8
+		lend_lease_cost 	= 10
+
+		#Defensive Abilities
+		defense 		= 2
+		breakthrough 	= 12
+		armor_value 	= 6
+		hardness 		= 0.65
+
+		resources = {
+			steel = 2
+		}
+	}
+	
+}
