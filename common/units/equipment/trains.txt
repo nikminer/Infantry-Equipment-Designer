@@ -87,4 +87,38 @@ equipments = {
 			vagon5_slot = standart_vagon
 		}
 	}
+
+	train_equipment_2 = {
+		year = 1910
+
+		archetype = train_equipment
+		priority = 10
+		module_slots = inherit
+
+		default_modules = {
+			locomotive_slot = wartime_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = standart_vagon
+			vagon3_slot = standart_vagon
+			vagon4_slot = standart_vagon
+			vagon5_slot = standart_vagon
+		}
+	}
+
+	train_equipment_3 = {
+		year = 1910
+
+		archetype = train_equipment
+		priority = 10
+		module_slots = inherit
+
+		default_modules = {
+			locomotive_slot = wartime_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon3_slot = standart_vagon
+			vagon4_slot = standart_vagon
+			vagon5_slot = standart_vagon
+		}
+	}
 }

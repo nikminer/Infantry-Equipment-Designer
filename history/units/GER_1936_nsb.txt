@@ -146,9 +146,11 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		unique={
-			"Maximilian von Weichs"
-			"Rudolf Schmidt"
+		officer = {
+			name = "Maximilian von Weichs"
+		}
+		officer = {
+			name = "Rudolf Schmidt"
 		}
 		location = 6521
 		division_template = "Panzer-Division"
@@ -160,8 +162,8 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		unique={
-			"Rudolf Veiel"
+		officer = {
+			name = "Rudolf Veiel"
 		}
 		#portraits = {
 		#	army = { #You can add starting portraits like this. The system expects a large and a small, and they will be cleared after the commander is promoted.
@@ -179,8 +181,8 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		unique={
-			"Ernst Fessmann"
+		officer = {
+			name = "Ernst Fessmann"
 		}
 		location = 6521
 		division_template = "Panzer-Division"

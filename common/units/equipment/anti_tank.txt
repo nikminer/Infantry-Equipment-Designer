@@ -29,5 +29,51 @@ equipments = {
 			special_type_slot_4 = empty
 		}
 	}
+
+	anti_tank_equipment_2 = {
+		year = 1934
+
+		archetype = anti_tank_equipment
+		active = no
+		priority = 05
+		parent = anti_tank_equipment_1
+		visual_level = 0
+		can_convert_from = { 
+			carriage_equipment_0
+		}	
+
+		default_modules = {
+			main_weapon_slot = improved_at_weapon
+			armor_slot = fullArmor
+			carriage_slot = standart_carriage
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+	}
+
+	anti_tank_equipment_3 = {
+		year = 1934
+
+		archetype = anti_tank_equipment
+		active = no
+		priority = 05
+		parent = anti_tank_equipment_2
+		visual_level = 0
+		can_convert_from = { 
+			carriage_equipment_0
+		}	
+
+		default_modules = {
+			main_weapon_slot = advanced_at_weapon
+			armor_slot = fullArmor
+			carriage_slot = standart_carriage
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+	}
 }
 
