@@ -330,7 +330,7 @@ equipment_modules = {
 			#Defensive Abilities
 			 defense = 3
 			 armor_value = 1
-			 hardness = -0.05
+			 #hardness = -0.05
 			#Misc Abilities
 			 build_cost_ic = 0.05
 			 weight = 0.1
@@ -349,7 +349,7 @@ equipment_modules = {
 			#Defensive Abilities
 			 defense = 4
 			 armor_value = 3
-			 hardness = -0.1
+			 #hardness = -0.1
 			#Misc Abilities
 			 build_cost_ic = 0.15
 			 weight = 0.15
@@ -367,7 +367,7 @@ equipment_modules = {
  
 	 	add_stats = {
 	 		 casualty_trickleback = 0.003
-	 		 experience_loss_factor = -0.01
+	 		 #experience_loss_factor = -0.01
 	 		 default_morale = 0.01
 	 		 weight = 0.1
  
@@ -516,8 +516,8 @@ equipment_modules = {
 	 	}
  
 	 	add_stats = {
-	 		max_organisation = -0.1
 	 		build_cost_ic = 0.1
+			 max_organisation = 0.05
 	 	}
 	 	manpower = 20
 	 	xp_cost = 5
@@ -535,7 +535,7 @@ equipment_modules = {
  
 	 	add_stats = {
 	 		fuel_consumption = 0.5
-	 		max_organisation = -0.1
+	 		max_organisation = 0.05
 	 		build_cost_ic = 0.15
 	 		weight = 0.2
 			defense = -1
