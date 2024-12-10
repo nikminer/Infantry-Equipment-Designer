@@ -163,4 +163,13 @@ spriteTypes = {
 		name = "GFX_EMI_flame_support"
 		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/flame_support.dds"
 	}
+
+	spriteType = {
+		name = "GFX_EMI_tripflare"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/flare.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_infantry_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_aa.dds"
+	}
 }

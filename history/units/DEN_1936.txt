@@ -1,8 +1,4 @@
-﻿instant_effect = {
-	CreateGreatWarArt = yes
-}
-
-division_template = {
+﻿division_template = {
 	name = "Infanteri Division"	# represents first part of enlarged divisions
 	division_names_group = DEN_INF_01
 
@@ -100,6 +96,7 @@ units = {
 
 ### Starting Production ###
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -108,14 +105,16 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.85
 		efficiency = 100
+		industrial_manufacturer = mio:DEN_DISA_organization
 	}
 	add_equipment_production = {
 		equipment = {
-			type = support_equipment_1
+			type = artillery_equipment_1
 			creator = "DEN"
 		}
 		requested_factories = 1
-		progress = 0.88
+		progress = 0.80
 		efficiency = 100
+		industrial_manufacturer = mio:DEN_haerens_tekniske_korps_organization
 	}
 }

@@ -256,6 +256,7 @@ equipment_modules = {
 		add_stats = {
 			#Offensive Abilities
 			 hard_attack = 1
+			 anti_air_attack = 1
 			 ap_attack = 4
 
 			#Misc Abilities
@@ -273,6 +274,7 @@ equipment_modules = {
 		add_stats = {
 			#Offensive Abilities
 			 hard_attack = 1.75
+			 anti_air_attack = 2
 			 ap_attack = 6
 
 			#Misc Abilities
@@ -455,11 +457,33 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = 0.05
 			soft_attack = 0.1
+			defense = 0.1
 		}
 		add_stats = {
 			#Defensive Abilities
 			 recon = 0.1
 			 defense = 1
+
+			#Misc Abilities
+			 weight = 0.1
+			 build_cost_ic = 1.5
+		}
+
+		xp_cost = 5
+	  }
+
+	  improved_night_vision_device = {
+		category = infantry_special_modules
+		
+		multiply_stats = {
+			breakthrough = 0.1
+			soft_attack = 0.15
+			defense = 0.15
+		}
+		add_stats = {
+			#Defensive Abilities
+			 recon = 0.2
+			 defense = 1.5
 
 			#Misc Abilities
 			 weight = 0.1
@@ -474,9 +498,8 @@ equipment_modules = {
 
 		multiply_stats = {
 			#Offensive Abilities
-			 hard_attack = 0.1
-			 breakthrough = 0.1
-			 soft_attack = 0.05
+			 hard_attack = 0.25
+			 ap_attack = 1
 		}
 
 		add_stats = {
@@ -525,7 +548,6 @@ equipment_modules = {
 
 	  flame_support = {
 	 	category = infantry_special_modules_extend
-	 	parent = molotov_cocktail
 	 	multiply_stats = {
 	 		#Offensive Abilities
 	 		 hard_attack = 0.1
@@ -542,5 +564,17 @@ equipment_modules = {
 	 	}
 	 	manpower = 50
 	 	xp_cost = 10
+	  }
+
+	  tripflare = {
+		category = infantry_special_modules_extend
+
+		multiply_stats = {
+			defense = 0.1
+			breakthrough = 0.1
+			build_cost_ic = 0.05
+		}
+
+		xp_cost = 10
 	  }
 }

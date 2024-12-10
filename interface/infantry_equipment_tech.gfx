@@ -13,4 +13,14 @@ spriteTypes = {
 		name = "GFX_PRC_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/prc_advanced_infantry_weapons.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_night_vision_improve_medium"
+		texturefile = "gfx/interface/technologies/night_vision2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_sp_land_night_vision"
+		texturefile = "gfx/interface/special_project/project_icons/sp_land_night_vision.dds"
+	}
 }

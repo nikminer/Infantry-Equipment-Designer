@@ -1,7 +1,4 @@
-﻿instant_effect = {
-	CreateGreatWarArt = yes
-}
-division_template = {
+﻿division_template = {
 	name = "Divisão de Infantaria"		# Infantry Division
 	division_names_group = POR_INF_01
 	# Note: each regiment could also mobilize a 3rd battalion if called up
@@ -236,6 +233,7 @@ units = {
 }
 
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -244,6 +242,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.47
 		efficiency = 100
+		industrial_manufacturer = mio:POR_fnmal_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -253,5 +252,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.74
 		efficiency = 100
+		industrial_manufacturer = mio:POR_fabrica_material_guerra_organization
 	}
 }

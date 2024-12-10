@@ -1,0 +1,41 @@
+sp_land_night_vision = {
+	specialization = specialization_land
+	project_tags = sp_tag_radar
+	
+	available = {
+		FROM = {
+			has_tech = centimetric_radar
+		}
+	}
+
+	prototype_time = sp_time.prototype.long
+	complexity = sp_complexity.small
+
+	
+
+	breakthrough_cost = {
+		specialization_land = 1
+	}
+
+	project_output = {
+
+		enable_equipment_modules = {
+			night_vision_device
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+	}
+}

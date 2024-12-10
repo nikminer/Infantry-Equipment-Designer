@@ -37,6 +37,7 @@ units = {
 
 
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0

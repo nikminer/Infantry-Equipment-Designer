@@ -224,19 +224,21 @@ units = {
 
 ##### Starting Production #####
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "CAN"
+			creator = CAN
 		}
 		requested_factories = 1
 		progress = 0.73
 		efficiency = 100
+		industrial_manufacturer = mio:CAN_small_arms_limited_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_1
-			creator = "CAN"
+			creator = CAN
 		}
 		requested_factories = 1
 		progress = 0.85

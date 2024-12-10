@@ -1,8 +1,4 @@
-﻿instant_effect = {
-	CreateGreatWarArt = yes
-}
-
-##### Division Templates #####
+﻿##### Division Templates #####
 division_template = {
 	name = "Infantry Division"  	# Standard formation for frontline divisions
 
@@ -493,6 +489,7 @@ units = {
 ## STARTING PRODUCTION ##
 #########################
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -501,6 +498,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.1
 		efficiency = 50
+		industrial_manufacturer = mio:USA_springfield_armory_organization
 	}
 
 	add_equipment_production = {
@@ -515,12 +513,13 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_0
+			type = artillery_equipment_1
 			creator = "USA" 
 		}
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
+		industrial_manufacturer = mio:USA_rock_island_arsenal_organization
 	}
 
 }

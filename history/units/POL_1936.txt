@@ -129,6 +129,9 @@ units = {
 		}
 		location = 9532
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_leon_strzelecki
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -141,6 +144,9 @@ units = {
 		}
 		location = 6558
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_sergiusz_zahorski
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -188,6 +194,9 @@ units = {
 		}
 		location = 9508
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_jerzy_grobicki
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -200,6 +209,9 @@ units = {
 		}
 		location = 9508
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_julian_filipowicz
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -247,6 +259,9 @@ units = {
 		}
 		location = 9427
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_zygmunt_piasecki
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -294,6 +309,9 @@ units = {
 		}
 		location = 11492
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_konstanty_plisowski
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -306,6 +324,9 @@ units = {
 		}
 		location = 11492
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_jan_karcz
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -353,6 +374,9 @@ units = {
 		}
 		location = 9341
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_konstanty_drucki_lubecki
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -459,6 +483,9 @@ units = {
 		}
 		location = 290
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_zygmunt_podhorski
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -471,6 +498,9 @@ units = {
 		}
 		location = 290
 		division_template = "Brygada Kawalerii" 
+		officer = {
+			name = POL_adam_zakrzewski
+		}
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -532,19 +562,21 @@ units = {
 ## STARTING PRODUCTION ##
 #########################
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "POL"
+			creator = POL
 		}
 		requested_factories = 2
 		progress = 0.20
 		efficiency = 100
+		industrial_manufacturer = mio:POL_fb_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "POL"
+			creator = POL
 		}
 		requested_factories = 1
 		progress = 0.20

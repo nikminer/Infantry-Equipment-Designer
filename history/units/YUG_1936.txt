@@ -1,8 +1,4 @@
-﻿instant_effect = {
-	CreateGreatWarArt = yes
-}
-
-division_template = {
+﻿division_template = {
 	name = "Pesadijska Divizija"	# Infantry Division	
 	# Note: infantry divisions were all at low reserve levels even just prior to Axis 
 	#	invasion of 1941
@@ -354,19 +350,21 @@ units = {
 
 ### Starting Production ###
 instant_effect = {
+	CreateRegularInfantry = yes
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "YUG"
+			creator = YUG
 		}
 		requested_factories = 1
 		progress = 0.37
 		efficiency = 100
+		industrial_manufacturer = mio:YUG_zastava_arms_organization
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "YUG"
+			creator = YUG
 		}
 		requested_factories = 1
 		progress = 0.76

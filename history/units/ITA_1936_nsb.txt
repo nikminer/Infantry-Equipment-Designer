@@ -1,7 +1,4 @@
-﻿instant_effect = {
-	CreateGreatWarArt = yes
-}
-####### Division Templates #######
+﻿####### Division Templates #######
 division_template = { 
 	name = "Divisione di Fanteria" 
 	division_names_group = ITA_INF_01 
@@ -769,17 +766,18 @@ units = {
 instant_effect = { 
 	if = { 
 		limit = { is_tutorial = no }
-
+		CreateRegularInfantry = yes
 		##### Equipments #####
 		add_equipment_production = { 
 			equipment = { 
-				type = infantry_equipment_0
+				type = infantry_equipment_0 
 				creator = "ITA" 
 			}
 
 			requested_factories = 4 
 			progress = 0.1 
 			efficiency = 50 
+			industrial_manufacturer = mio:ITA_beretta_organization
 		}
 
 		add_equipment_production = { 
@@ -791,6 +789,7 @@ instant_effect = {
 			requested_factories = 1 
 			progress = 0.3 
 			efficiency = 50 
+			industrial_manufacturer = mio:ITA_brescia_arsenal_organization
 		}
 
 		add_equipment_production = { 
@@ -802,7 +801,8 @@ instant_effect = {
 
 			requested_factories = 1 
 			progress = 0.4 
-			efficiency = 50 
+			efficiency = 50
+			industrial_manufacturer = mio:ITA_fiat_organization
 		}
 
 		add_equipment_production = { 
@@ -814,6 +814,7 @@ instant_effect = {
 			requested_factories = 2 
 			progress = 0.4 
 			efficiency = 50 
+			industrial_manufacturer = mio:ITA_lancia_organization
 		}
 	}
 }
