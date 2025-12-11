@@ -1,0 +1,23 @@
+
+#	basic_train = {
+#		enable_equipments = {
+#			train_equipment_1
+#		}
+#
+#		enable_equipment_modules = {
+#			great_war_locomotive
+#			standart_vagon
+#		}
+#	}
+#
+#	wartime_train = {
+#		enable_equipment_modules = {
+#			wartime_locomotive
+#		}
+#	}
+#
+#	armored_train = {
+#		enable_equipment_modules = {
+#			armored_vagon
+#		}
+#	}

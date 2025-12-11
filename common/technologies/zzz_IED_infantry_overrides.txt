@@ -1,0 +1,142 @@
+#	infantry_weapons = {
+#
+#		enable_equipment_modules = {
+#			tank_heavy_machine_gun
+#			secondary_turret_hmg
+#			additional_machine_guns
+#			prewar_weapon
+#			prewar_anti_tank
+#			bandaging_package
+#			sapper_shovels
+#			binoculars
+#			minimum_protective
+#		}
+#	}
+#
+#	infantry_weapons1 = {
+#
+#		enable_equipment_modules = {
+#			regular_weapon
+#			sapper_shovels
+#		}
+#	}
+#
+#	infantry_weapons2 = {
+#
+#		enable_equipment_modules = {
+#			regular_anti_tank
+#			additional_grenades
+#		}
+#	}
+#
+#	improved_infantry_weapons = {
+#
+#		enable_equipment_modules = {
+#			improved_weapon
+#			pistol_protective
+#		}
+#	}
+#
+#	improved_infantry_weapons_2 = {
+#
+#		enable_equipment_modules = {
+#			sniper_support
+#			flame_support
+#			tripflare
+#		}
+#	}
+#
+#
+#	infantry_at = {
+#		enable_equipment_modules = {
+#			improved_anti_tank
+#			saper_protective
+#		}
+#	}
+#
+#	infantry_at2 = {
+#
+#		enable_equipment_modules = {
+#			advanced_anti_tank
+#		}
+#	}
+#
+#	advanced_infantry_weapons = {
+#
+#		enable_equipment_modules = {
+#			advanced_weapon
+#		}	
+#	}
+#
+#	advanced_infantry_weapons2 = {
+#
+#		enable_equipment_modules = {
+#			gun_grease
+#			additional_ammo
+#		}		
+#	}
+#
+#	night_vision = {
+#
+#		allow_branch = {
+#    	    NOT = { has_dlc = "Gotterdammerung" }
+#    	}
+#
+#    	allow = {
+#    	    NOT = { has_dlc = "Gotterdammerung" }
+#    	}
+#
+#		enable_equipment_modules = {
+#			night_vision_device
+#		}
+#		
+#	}
+#
+# 	support_weapons = {
+#
+#		enable_equipment_modules = {
+#			prewar_attack_support
+#			prewar_defence_support
+#		}
+#	}
+#
+#	support_weapons2 = {
+#
+#		enable_equipment_modules = {
+#			regular_attack_support
+#			regular_defence_support
+#		}
+#	}
+#
+#	support_weapons3 = {
+#		
+#		enable_equipment_modules = {
+#			improved_attack_support
+#			improved_defence_support
+#		}
+#	}
+#
+#	support_weapons4 = {
+#
+#		enable_equipment_modules = {
+#			advanced_attack_support
+#			advanced_defence_support
+#		}
+#		
+#	}
+#
+#	molotov_cocktails_tech = {
+#		
+#		enable_equipment_modules = {
+#			molotov_cocktail
+#		}
+#
+#		allow = {
+#			always = no
+#		}
+#
+#		research_cost = 1
+#		start_year = 1936
+#	}
+	
+#uranium_tipped_bullets
