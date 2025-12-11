@@ -1,41 +1,41 @@
-default = {
-	anti_air_equipment = {
-		pool = {
-			weight = 4
-			icons = { 
-				GFX_designer_aa_generic
-			}
-		}
-	}
-	
-	anti_tank_equipment = {
-		pool = {
-			weight = 4
-			icons = { 
-				GFX_designer_at_generic
-			}
-		}
-	}
-
-	artillery_equipment = {
-		pool = {
-			weight = 4
-			icons = { 
-				GFX_designer_art_generic
-			}
-		}
-		pool = {
-			weight = 3
-			icons = { 
-				GFX_rocket_artillery_equipment_generic
-			}
-		}
-
-		pool = {
-			weight = 2
-			icons = { 
-				GFX_rocket_artillery_equipment
-			}
-		}
-	}
-}
+#efault = {
+#	anti_air_equipment = {
+#		pool = {
+#			weight = 4
+#			icons = { 
+#				GFX_designer_aa_generic
+#			}
+#		}
+#	}
+#	
+#	anti_tank_equipment = {
+#		pool = {
+#			weight = 4
+#			icons = { 
+#				GFX_designer_at_generic
+#			}
+#		}
+#	}
+#
+#	artillery_equipment = {
+#		pool = {
+#			weight = 4
+#			icons = { 
+#				GFX_designer_art_generic
+#			}
+#		}
+#		pool = {
+#			weight = 3
+#			icons = { 
+#				GFX_rocket_artillery_equipment_generic
+#			}
+#		}
+#
+#		pool = {
+#			weight = 2
+#			icons = { 
+#				GFX_rocket_artillery_equipment
+#			}
+#		}
+#	}
+#

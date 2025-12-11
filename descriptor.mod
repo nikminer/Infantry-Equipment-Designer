@@ -5,5 +5,5 @@ tags={
 }
 picture="thumbnail.png"
 name="Infantry Equipment Designer"
-supported_version="1.15.*"
+supported_version="1.17.*"
 remote_file_id="2936314314"

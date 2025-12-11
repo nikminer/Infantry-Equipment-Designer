@@ -1,166 +1,166 @@
 spriteTypes = {
-	SpriteType = {
-		name = "GFX_rocket_artillery_equipment_generic"
-		texturefile = "gfx/interface/equipmentdesigner/rocket/designer/rocket_artillery_equipment_generic.dds"
-	}	
-	SpriteType = {
-		name = "GFX_rocket_artillery_equipment"
-		texturefile = "gfx/interface/equipmentdesigner/rocket/designer/rocket_artillery_equipment.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_GER_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_SOV_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_ENG_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_FRA_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_JAP_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_ITA_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_gw_artillery_medium"
-		texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
-	}
-
-
-	SpriteType = {
-		name = "GFX_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery1_allies.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_SOV_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery1_comintern.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_GER_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery1_axis.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_ITA_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery1_axis.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_JAP_interwar_artillery_medium"
-		texturefile = "gfx/interface/technologies/artillery1_axis.dds"
-	}	
-
-
-	SpriteType = {
-		name = "GFX_designer_aa_generic"
-		texturefile = "gfx/interface/equipmentdesigner/AA/designer/anti_air_equipment.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_designer_at_generic"
-		texturefile = "gfx/interface/equipmentdesigner/AT/designer/anti_tank_equipment.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_designer_art_generic"
-		texturefile = "gfx/interface/equipmentdesigner/arteliry/designer/artillery_equipment.dds"
-	}	
-
-
-	# Carriage
-	 spriteType = {
-	 	name = "GFX_TC_carriage_equipment"
-	 	textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_carriage_equipment_main_weapon"
-		textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_main_weapon.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_carriage_equipment_carriage"
-		textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_carriage.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_carriage_equipment_armor"
-		textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_armor.dds"
-	 }
-
-	# Artilerry
-	 spriteType = {
-	 	name = "GFX_TC_art_equipment"
-	 	textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint.dds"
-	 }
-	 spriteType = {
-	    name = "GFX_TM_art_equipment_main_weapon"
-	    textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_main_weapon.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_art_equipment_carriage"
-		textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_carriage.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_art_equipment_armor"
-		textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_armor.dds"
-	 }
-
-	# AA
-	 spriteType = {
-	 	name = "GFX_TC_AA_equipment"
-	 	textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint.dds"
-	 }
-	 spriteType = {
-	    name = "GFX_TM_AA_equipment_main_weapon"
-	    textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint_main_weapon.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_AA_equipment_carriage"
-		textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint_carriage.dds"
-	 }
-	 spriteType = {
-		name = "GFX_TM_AA_equipment_armor"
-		textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint_armor.dds"
-	 }
-
-	# AT
-	 spriteType = {
-	 	name = "GFX_TC_AT_equipment"
-	 	textureFile = "gfx/interface/equipmentdesigner/AT/generic_AT_blueprint.dds"
-	 }
-	# Rocket 
-	 spriteType = {
-	 	name = "GFX_TC_rocket_equipment"
-	 	textureFile = "gfx/interface/equipmentdesigner/rocket/generic_rocket_blueprint.dds"
-	 }
-	 spriteType = {
-	    name = "GFX_TM_rocket_equipment_main_weapon"
-	    textureFile = "gfx/interface/equipmentdesigner/rocket/generic_rocket_blueprint_main_weapon.dds"
-	 }
-	 spriteType = {
-	    name = "GFX_TM_rocket_equipment_carriage"
-	    textureFile = "gfx/interface/equipmentdesigner/rocket/generic_rocket_blueprint_carriage.dds"
-	 }
+	#SpriteType = {
+	#	name = "GFX_rocket_artillery_equipment_generic"
+	#	texturefile = "gfx/interface/equipmentdesigner/rocket/designer/rocket_artillery_equipment_generic.dds"
+	#}	
+	#SpriteType = {
+	#	name = "GFX_rocket_artillery_equipment"
+	#	texturefile = "gfx/interface/equipmentdesigner/rocket/designer/rocket_artillery_equipment.dds"
+	#}	
+	#
+	#SpriteType = {
+	#	name = "GFX_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}	
+#
+	#SpriteType = {
+	#	name = "GFX_GER_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+	#SpriteType = {
+	#	name = "GFX_SOV_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+	#SpriteType = {
+	#	name = "GFX_ENG_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+	#SpriteType = {
+	#	name = "GFX_FRA_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+	#SpriteType = {
+	#	name = "GFX_JAP_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+	#SpriteType = {
+	#	name = "GFX_ITA_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+	#SpriteType = {
+	#	name = "GFX_USA_gw_artillery_medium"
+	#	texturefile = "gfx/interface/equipmentdesigner/carriage/designer/carriage_equipment.dds"
+	#}
+#
+#
+	#SpriteType = {
+	#	name = "GFX_interwar_artillery_medium"
+	#	texturefile = "gfx/interface/technologies/artillery1_allies.dds"
+	#}	
+#
+	#SpriteType = {
+	#	name = "GFX_SOV_interwar_artillery_medium"
+	#	texturefile = "gfx/interface/technologies/artillery1_comintern.dds"
+	#}	
+#
+	#SpriteType = {
+	#	name = "GFX_GER_interwar_artillery_medium"
+	#	texturefile = "gfx/interface/technologies/artillery1_axis.dds"
+	#}	
+#
+	#SpriteType = {
+	#	name = "GFX_ITA_interwar_artillery_medium"
+	#	texturefile = "gfx/interface/technologies/artillery1_axis.dds"
+	#}	
+	#
+	#SpriteType = {
+	#	name = "GFX_JAP_interwar_artillery_medium"
+	#	texturefile = "gfx/interface/technologies/artillery1_axis.dds"
+	#}	
+#
+#
+	#SpriteType = {
+	#	name = "GFX_designer_aa_generic"
+	#	texturefile = "gfx/interface/equipmentdesigner/AA/designer/anti_air_equipment.dds"
+	#}	
+#
+	#SpriteType = {
+	#	name = "GFX_designer_at_generic"
+	#	texturefile = "gfx/interface/equipmentdesigner/AT/designer/anti_tank_equipment.dds"
+	#}	
+#
+	#SpriteType = {
+	#	name = "GFX_designer_art_generic"
+	#	texturefile = "gfx/interface/equipmentdesigner/arteliry/designer/artillery_equipment.dds"
+	#}	
+#
+#
+	## Carriage
+	# spriteType = {
+	# 	name = "GFX_TC_carriage_equipment"
+	# 	textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_carriage_equipment_main_weapon"
+	#	textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_main_weapon.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_carriage_equipment_carriage"
+	#	textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_carriage.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_carriage_equipment_armor"
+	#	textureFile = "gfx/interface/equipmentdesigner/carriage/generic_carriage_blueprint_armor.dds"
+	# }
+#
+	## Artilerry
+	# spriteType = {
+	# 	name = "GFX_TC_art_equipment"
+	# 	textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint.dds"
+	# }
+	# spriteType = {
+	#    name = "GFX_TM_art_equipment_main_weapon"
+	#    textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_main_weapon.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_art_equipment_carriage"
+	#	textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_carriage.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_art_equipment_armor"
+	#	textureFile = "gfx/interface/equipmentdesigner/arteliry/generic_arteliry_blueprint_armor.dds"
+	# }
+#
+	## AA
+	# spriteType = {
+	# 	name = "GFX_TC_AA_equipment"
+	# 	textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint.dds"
+	# }
+	# spriteType = {
+	#    name = "GFX_TM_AA_equipment_main_weapon"
+	#    textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint_main_weapon.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_AA_equipment_carriage"
+	#	textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint_carriage.dds"
+	# }
+	# spriteType = {
+	#	name = "GFX_TM_AA_equipment_armor"
+	#	textureFile = "gfx/interface/equipmentdesigner/AA/generic_AA_blueprint_armor.dds"
+	# }
+#
+	## AT
+	# spriteType = {
+	# 	name = "GFX_TC_AT_equipment"
+	# 	textureFile = "gfx/interface/equipmentdesigner/AT/generic_AT_blueprint.dds"
+	# }
+	## Rocket 
+	# spriteType = {
+	# 	name = "GFX_TC_rocket_equipment"
+	# 	textureFile = "gfx/interface/equipmentdesigner/rocket/generic_rocket_blueprint.dds"
+	# }
+	# spriteType = {
+	#    name = "GFX_TM_rocket_equipment_main_weapon"
+	#    textureFile = "gfx/interface/equipmentdesigner/rocket/generic_rocket_blueprint_main_weapon.dds"
+	# }
+	# spriteType = {
+	#    name = "GFX_TM_rocket_equipment_carriage"
+	#    textureFile = "gfx/interface/equipmentdesigner/rocket/generic_rocket_blueprint_carriage.dds"
+	# }
 }
